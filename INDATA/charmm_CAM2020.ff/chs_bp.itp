@@ -1,0 +1,21 @@
+;CRL1 ==CTL1 
+[ bondtypes ]
+CRL1 OSL 1   0.14300000    284512.00 ; CTL1      OSL     1
+CTL2      CCL     1   0.15220000    167360.00; CTL1      CCL
+
+[ angletypes ]
+
+CTL2 CTL2 CCL 5   108.000000   435.136000   0.00000000         0.00 ; CTL2     CTL1      CCL     
+;HAL2 CTL2 CCL 5   109.500000   418.400000   0.00000000         0.00 ; HBL     CTL1      CCL     
+CTL2 CCL  OCL 5   118.000000   334.720000   0.23880000     41840.00 ;OCL      CCL     CTL1     
+
+HGA1 CRL1 OSL 5   109.500000   502.080000   0.00000000         0.00; HAL1     CTL1      OSL     
+
+OSL CRL1 CRL2 5   110.100000   633.457600   0.00000000         0.00; OSL     CTL1     CTL2     
+CL OSL CRL1 5   109.600000   334.720000   0.22651000     25104.00; CL      OSL     CTL1     
+
+[ dihedraltypes ]
+CTL2 CTL2 CCL OCL 9   180.000000     0.209200     6; CT2      CT2       CC       OC
+HAL2 CTL2 CCL OCL 9   180.000000     0.209200     6; HA2      CT2       CC       OC
+X CRL1 OSL X      9     0.000000     0.000000     3; X     CTL1      OSL        X
+

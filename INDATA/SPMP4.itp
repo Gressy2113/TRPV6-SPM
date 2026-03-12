@@ -1,0 +1,424 @@
+;Topology of SPMP4 in charmm36 
+[ moleculetype ]
+SPMP4 3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass
+;residue     1 SPMP4
+     1      NG3P3      1  SPMP4     N1      1       -0.3     14.007   ; qtot -0.3
+     2       HGP2      1  SPMP4    H11      2       0.33      1.008   ; qtot 0.03
+     3       HGP2      1  SPMP4    H12      3       0.33      1.008   ; qtot 0.36
+     4       HGP2      1  SPMP4    H13      4       0.33      1.008   ; qtot 0.69
+     5      CG324      1  SPMP4     C2      5       0.21     12.011   ; qtot 0.9
+     6       HGA2      1  SPMP4    H21      6       0.05      1.008   ; qtot 0.95
+     7       HGA2      1  SPMP4    H22      7       0.05      1.008   ; qtot 1
+     8      CG321      1  SPMP4     C3      8      -0.18     12.011   ; qtot 0.82
+     9       HGA2      1  SPMP4    H31      9       0.09      1.008   ; qtot 0.91
+    10       HGA2      1  SPMP4    H32     10       0.09      1.008   ; qtot 1
+    11      CG324      1  SPMP4     C4     11        0.2     12.011   ; qtot 1.2
+    12       HGA2      1  SPMP4    H41     12       0.09      1.008   ; qtot 1.29
+    13       HGA2      1  SPMP4    H42     13       0.09      1.008   ; qtot 1.38
+    14      NG3P2      1  SPMP4     N5     14       -0.4     14.007   ; qtot 0.98
+    15       HGP2      1  SPMP4    H51     15       0.32      1.008   ; qtot 1.3
+    16       HGP2      1  SPMP4    H52     16       0.32      1.008   ; qtot 1.62
+    17      CG324      1  SPMP4     C6     17        0.2     12.011   ; qtot 1.82
+    18       HGA2      1  SPMP4    H61     18       0.09      1.008   ; qtot 1.91
+    19       HGA2      1  SPMP4    H62     19       0.09      1.008   ; qtot 2
+    20      CG321      1  SPMP4     C7     20      -0.18     12.011   ; qtot 1.82
+    21       HGA2      1  SPMP4    H71     21       0.09      1.008   ; qtot 1.91
+    22       HGA2      1  SPMP4    H72     22       0.09      1.008   ; qtot 2
+    23      CG321      1  SPMP4     C8     23      -0.18     12.011   ; qtot 1.82
+    24       HGA2      1  SPMP4    H81     24       0.09      1.008   ; qtot 1.91
+    25       HGA2      1  SPMP4    H82     25       0.09      1.008   ; qtot 2
+    26      CG324      1  SPMP4     C9     26        0.2     12.011   ; qtot 2.2
+    27       HGA2      1  SPMP4    H91     27       0.09      1.008   ; qtot 2.29
+    28       HGA2      1  SPMP4    H92     28       0.09      1.008   ; qtot 2.38
+    29      NG3P2      1  SPMP4    N10     29       -0.4     14.007   ; qtot 1.98
+    30       HGP2      1  SPMP4   H101     30       0.32      1.008   ; qtot 2.3
+    31       HGP2      1  SPMP4   H102     31       0.32      1.008   ; qtot 2.62
+    32      CG324      1  SPMP4    C11     32        0.2     12.011   ; qtot 2.82
+    33       HGA2      1  SPMP4   H111     33       0.09      1.008   ; qtot 2.91
+    34       HGA2      1  SPMP4   H112     34       0.09      1.008   ; qtot 3
+    35      CG321      1  SPMP4    C12     35      -0.18     12.011   ; qtot 2.82
+    36       HGA2      1  SPMP4   H121     36       0.09      1.008   ; qtot 2.91
+    37       HGA2      1  SPMP4   H122     37       0.09      1.008   ; qtot 3
+    38      CG324      1  SPMP4    C13     38       0.21     12.011   ; qtot 3.21
+    39       HGA2      1  SPMP4   H131     39       0.05      1.008   ; qtot 3.26
+    40       HGA2      1  SPMP4   H132     40       0.05      1.008   ; qtot 3.31
+    41      NG3P3      1  SPMP4    N14     41       -0.3     14.007   ; qtot 3.01
+    42       HGP2      1  SPMP4   H141     42       0.33      1.008   ; qtot 3.34
+    43       HGP2      1  SPMP4   H142     43       0.33      1.008   ; qtot 3.67
+    44       HGP2      1  SPMP4   H143     44       0.33      1.008   ; qtot 4
+;qres: 4
+;qtot: 4
+[ bonds ]
+;     ai      aj    func          b0          cb
+    1     2     1     ; |N1     H11    |NG3P3    HGP2        |SPMP4 1
+    1     3     1     ; |N1     H12    |NG3P3    HGP2        |SPMP4 1
+    1     4     1     ; |N1     H13    |NG3P3    HGP2        |SPMP4 1
+    1     5     1     ; |N1     C2     |NG3P3    CG324       |SPMP4 1
+    5     6     1     ; |C2     H21    |CG324    HGA2        |SPMP4 1
+    5     7     1     ; |C2     H22    |CG324    HGA2        |SPMP4 1
+    5     8     1     ; |C2     C3     |CG324    CG321       |SPMP4 1
+    8     9     1     ; |C3     H31    |CG321    HGA2        |SPMP4 1
+    8    10     1     ; |C3     H32    |CG321    HGA2        |SPMP4 1
+    8    11     1     ; |C3     C4     |CG321    CG324       |SPMP4 1
+   11    12     1     ; |C4     H41    |CG324    HGA2        |SPMP4 1
+   11    13     1     ; |C4     H42    |CG324    HGA2        |SPMP4 1
+   11    14     1     ; |C4     N5     |CG324    NG3P2       |SPMP4 1
+   14    15     1     ; |N5     H51    |NG3P2    HGP2        |SPMP4 1
+   14    16     1     ; |N5     H52    |NG3P2    HGP2        |SPMP4 1
+   14    17     1     ; |N5     C6     |NG3P2    CG324       |SPMP4 1
+   17    18     1     ; |C6     H61    |CG324    HGA2        |SPMP4 1
+   17    19     1     ; |C6     H62    |CG324    HGA2        |SPMP4 1
+   17    20     1     ; |C6     C7     |CG324    CG321       |SPMP4 1
+   20    21     1     ; |C7     H71    |CG321    HGA2        |SPMP4 1
+   20    22     1     ; |C7     H72    |CG321    HGA2        |SPMP4 1
+   20    23     1     ; |C7     C8     |CG321    CG321       |SPMP4 1
+   23    24     1     ; |C8     H81    |CG321    HGA2        |SPMP4 1
+   23    25     1     ; |C8     H82    |CG321    HGA2        |SPMP4 1
+   23    26     1     ; |C8     C9     |CG321    CG324       |SPMP4 1
+   26    27     1     ; |C9     H91    |CG324    HGA2        |SPMP4 1
+   26    28     1     ; |C9     H92    |CG324    HGA2        |SPMP4 1
+   26    29     1     ; |C9     N10    |CG324    NG3P2       |SPMP4 1
+   29    30     1     ; |N10    H101   |NG3P2    HGP2        |SPMP4 1
+   29    31     1     ; |N10    H102   |NG3P2    HGP2        |SPMP4 1
+   29    32     1     ; |N10    C11    |NG3P2    CG324       |SPMP4 1
+   32    33     1     ; |C11    H111   |CG324    HGA2        |SPMP4 1
+   32    34     1     ; |C11    H112   |CG324    HGA2        |SPMP4 1
+   32    35     1     ; |C11    C12    |CG324    CG321       |SPMP4 1
+   35    36     1     ; |C12    H121   |CG321    HGA2        |SPMP4 1
+   35    37     1     ; |C12    H122   |CG321    HGA2        |SPMP4 1
+   35    38     1     ; |C12    C13    |CG321    CG324       |SPMP4 1
+   38    39     1     ; |C13    H131   |CG324    HGA2        |SPMP4 1
+   38    40     1     ; |C13    H132   |CG324    HGA2        |SPMP4 1
+   38    41     1     ; |C13    N14    |CG324    NG3P3       |SPMP4 1
+   41    42     1     ; |N14    H141   |NG3P3    HGP2        |SPMP4 1
+   41    43     1     ; |N14    H142   |NG3P3    HGP2        |SPMP4 1
+   41    44     1     ; |N14    H143   |NG3P3    HGP2        |SPMP4 1
+[ pairs ]
+;  ai    aj funct
+    1     9     1     ; |N1     H31    |NG3P3    HGA2        |SPMP4 1
+    1    10     1     ; |N1     H32    |NG3P3    HGA2        |SPMP4 1
+    1    11     1     ; |N1     C4     |NG3P3    CG324       |SPMP4 1
+    2     6     1     ; |H11    H21    |HGP2     HGA2        |SPMP4 1
+    2     7     1     ; |H11    H22    |HGP2     HGA2        |SPMP4 1
+    2     8     1     ; |H11    C3     |HGP2     CG321       |SPMP4 1
+    3     6     1     ; |H12    H21    |HGP2     HGA2        |SPMP4 1
+    3     7     1     ; |H12    H22    |HGP2     HGA2        |SPMP4 1
+    3     8     1     ; |H12    C3     |HGP2     CG321       |SPMP4 1
+    4     6     1     ; |H13    H21    |HGP2     HGA2        |SPMP4 1
+    4     7     1     ; |H13    H22    |HGP2     HGA2        |SPMP4 1
+    4     8     1     ; |H13    C3     |HGP2     CG321       |SPMP4 1
+    5    12     1     ; |C2     H41    |CG324    HGA2        |SPMP4 1
+    5    13     1     ; |C2     H42    |CG324    HGA2        |SPMP4 1
+    5    14     1     ; |C2     N5     |CG324    NG3P2       |SPMP4 1
+    6     9     1     ; |H21    H31    |HGA2     HGA2        |SPMP4 1
+    6    10     1     ; |H21    H32    |HGA2     HGA2        |SPMP4 1
+    6    11     1     ; |H21    C4     |HGA2     CG324       |SPMP4 1
+    7     9     1     ; |H22    H31    |HGA2     HGA2        |SPMP4 1
+    7    10     1     ; |H22    H32    |HGA2     HGA2        |SPMP4 1
+    7    11     1     ; |H22    C4     |HGA2     CG324       |SPMP4 1
+    8    15     1     ; |C3     H51    |CG321    HGP2        |SPMP4 1
+    8    16     1     ; |C3     H52    |CG321    HGP2        |SPMP4 1
+    8    17     1     ; |C3     C6     |CG321    CG324       |SPMP4 1
+    9    12     1     ; |H31    H41    |HGA2     HGA2        |SPMP4 1
+    9    13     1     ; |H31    H42    |HGA2     HGA2        |SPMP4 1
+    9    14     1     ; |H31    N5     |HGA2     NG3P2       |SPMP4 1
+   10    12     1     ; |H32    H41    |HGA2     HGA2        |SPMP4 1
+   10    13     1     ; |H32    H42    |HGA2     HGA2        |SPMP4 1
+   10    14     1     ; |H32    N5     |HGA2     NG3P2       |SPMP4 1
+   11    18     1     ; |C4     H61    |CG324    HGA2        |SPMP4 1
+   11    19     1     ; |C4     H62    |CG324    HGA2        |SPMP4 1
+   11    20     1     ; |C4     C7     |CG324    CG321       |SPMP4 1
+   12    15     1     ; |H41    H51    |HGA2     HGP2        |SPMP4 1
+   12    16     1     ; |H41    H52    |HGA2     HGP2        |SPMP4 1
+   12    17     1     ; |H41    C6     |HGA2     CG324       |SPMP4 1
+   13    15     1     ; |H42    H51    |HGA2     HGP2        |SPMP4 1
+   13    16     1     ; |H42    H52    |HGA2     HGP2        |SPMP4 1
+   13    17     1     ; |H42    C6     |HGA2     CG324       |SPMP4 1
+   14    21     1     ; |N5     H71    |NG3P2    HGA2        |SPMP4 1
+   14    22     1     ; |N5     H72    |NG3P2    HGA2        |SPMP4 1
+   14    23     1     ; |N5     C8     |NG3P2    CG321       |SPMP4 1
+   15    18     1     ; |H51    H61    |HGP2     HGA2        |SPMP4 1
+   15    19     1     ; |H51    H62    |HGP2     HGA2        |SPMP4 1
+   15    20     1     ; |H51    C7     |HGP2     CG321       |SPMP4 1
+   16    18     1     ; |H52    H61    |HGP2     HGA2        |SPMP4 1
+   16    19     1     ; |H52    H62    |HGP2     HGA2        |SPMP4 1
+   16    20     1     ; |H52    C7     |HGP2     CG321       |SPMP4 1
+   17    24     1     ; |C6     H81    |CG324    HGA2        |SPMP4 1
+   17    25     1     ; |C6     H82    |CG324    HGA2        |SPMP4 1
+   17    26     1     ; |C6     C9     |CG324    CG324       |SPMP4 1
+   18    21     1     ; |H61    H71    |HGA2     HGA2        |SPMP4 1
+   18    22     1     ; |H61    H72    |HGA2     HGA2        |SPMP4 1
+   18    23     1     ; |H61    C8     |HGA2     CG321       |SPMP4 1
+   19    21     1     ; |H62    H71    |HGA2     HGA2        |SPMP4 1
+   19    22     1     ; |H62    H72    |HGA2     HGA2        |SPMP4 1
+   19    23     1     ; |H62    C8     |HGA2     CG321       |SPMP4 1
+   20    27     1     ; |C7     H91    |CG321    HGA2        |SPMP4 1
+   20    28     1     ; |C7     H92    |CG321    HGA2        |SPMP4 1
+   20    29     1     ; |C7     N10    |CG321    NG3P2       |SPMP4 1
+   21    24     1     ; |H71    H81    |HGA2     HGA2        |SPMP4 1
+   21    25     1     ; |H71    H82    |HGA2     HGA2        |SPMP4 1
+   21    26     1     ; |H71    C9     |HGA2     CG324       |SPMP4 1
+   22    24     1     ; |H72    H81    |HGA2     HGA2        |SPMP4 1
+   22    25     1     ; |H72    H82    |HGA2     HGA2        |SPMP4 1
+   22    26     1     ; |H72    C9     |HGA2     CG324       |SPMP4 1
+   23    30     1     ; |C8     H101   |CG321    HGP2        |SPMP4 1
+   23    31     1     ; |C8     H102   |CG321    HGP2        |SPMP4 1
+   23    32     1     ; |C8     C11    |CG321    CG324       |SPMP4 1
+   24    27     1     ; |H81    H91    |HGA2     HGA2        |SPMP4 1
+   24    28     1     ; |H81    H92    |HGA2     HGA2        |SPMP4 1
+   24    29     1     ; |H81    N10    |HGA2     NG3P2       |SPMP4 1
+   25    27     1     ; |H82    H91    |HGA2     HGA2        |SPMP4 1
+   25    28     1     ; |H82    H92    |HGA2     HGA2        |SPMP4 1
+   25    29     1     ; |H82    N10    |HGA2     NG3P2       |SPMP4 1
+   26    33     1     ; |C9     H111   |CG324    HGA2        |SPMP4 1
+   26    34     1     ; |C9     H112   |CG324    HGA2        |SPMP4 1
+   26    35     1     ; |C9     C12    |CG324    CG321       |SPMP4 1
+   27    30     1     ; |H91    H101   |HGA2     HGP2        |SPMP4 1
+   27    31     1     ; |H91    H102   |HGA2     HGP2        |SPMP4 1
+   27    32     1     ; |H91    C11    |HGA2     CG324       |SPMP4 1
+   28    30     1     ; |H92    H101   |HGA2     HGP2        |SPMP4 1
+   28    31     1     ; |H92    H102   |HGA2     HGP2        |SPMP4 1
+   28    32     1     ; |H92    C11    |HGA2     CG324       |SPMP4 1
+   29    36     1     ; |N10    H121   |NG3P2    HGA2        |SPMP4 1
+   29    37     1     ; |N10    H122   |NG3P2    HGA2        |SPMP4 1
+   29    38     1     ; |N10    C13    |NG3P2    CG324       |SPMP4 1
+   30    33     1     ; |H101   H111   |HGP2     HGA2        |SPMP4 1
+   30    34     1     ; |H101   H112   |HGP2     HGA2        |SPMP4 1
+   30    35     1     ; |H101   C12    |HGP2     CG321       |SPMP4 1
+   31    33     1     ; |H102   H111   |HGP2     HGA2        |SPMP4 1
+   31    34     1     ; |H102   H112   |HGP2     HGA2        |SPMP4 1
+   31    35     1     ; |H102   C12    |HGP2     CG321       |SPMP4 1
+   32    39     1     ; |C11    H131   |CG324    HGA2        |SPMP4 1
+   32    40     1     ; |C11    H132   |CG324    HGA2        |SPMP4 1
+   32    41     1     ; |C11    N14    |CG324    NG3P3       |SPMP4 1
+   33    36     1     ; |H111   H121   |HGA2     HGA2        |SPMP4 1
+   33    37     1     ; |H111   H122   |HGA2     HGA2        |SPMP4 1
+   33    38     1     ; |H111   C13    |HGA2     CG324       |SPMP4 1
+   34    36     1     ; |H112   H121   |HGA2     HGA2        |SPMP4 1
+   34    37     1     ; |H112   H122   |HGA2     HGA2        |SPMP4 1
+   34    38     1     ; |H112   C13    |HGA2     CG324       |SPMP4 1
+   35    42     1     ; |C12    H141   |CG321    HGP2        |SPMP4 1
+   35    43     1     ; |C12    H142   |CG321    HGP2        |SPMP4 1
+   35    44     1     ; |C12    H143   |CG321    HGP2        |SPMP4 1
+   36    39     1     ; |H121   H131   |HGA2     HGA2        |SPMP4 1
+   36    40     1     ; |H121   H132   |HGA2     HGA2        |SPMP4 1
+   36    41     1     ; |H121   N14    |HGA2     NG3P3       |SPMP4 1
+   37    39     1     ; |H122   H131   |HGA2     HGA2        |SPMP4 1
+   37    40     1     ; |H122   H132   |HGA2     HGA2        |SPMP4 1
+   37    41     1     ; |H122   N14    |HGA2     NG3P3       |SPMP4 1
+   39    42     1     ; |H131   H141   |HGA2     HGP2        |SPMP4 1
+   39    43     1     ; |H131   H142   |HGA2     HGP2        |SPMP4 1
+   39    44     1     ; |H131   H143   |HGA2     HGP2        |SPMP4 1
+   40    42     1     ; |H132   H141   |HGA2     HGP2        |SPMP4 1
+   40    43     1     ; |H132   H142   |HGA2     HGP2        |SPMP4 1
+   40    44     1     ; |H132   H143   |HGA2     HGP2        |SPMP4 1
+[ angles ]
+;  ai    aj    ak funct
+    2     1     3     5     ; |H11    N1     H12    |HGP2     NG3P3    HGP2        |SPMP4 1
+    2     1     4     5     ; |H11    N1     H13    |HGP2     NG3P3    HGP2        |SPMP4 1
+    2     1     5     5     ; |H11    N1     C2     |HGP2     NG3P3    CG324       |SPMP4 1
+    3     1     4     5     ; |H12    N1     H13    |HGP2     NG3P3    HGP2        |SPMP4 1
+    3     1     5     5     ; |H12    N1     C2     |HGP2     NG3P3    CG324       |SPMP4 1
+    4     1     5     5     ; |H13    N1     C2     |HGP2     NG3P3    CG324       |SPMP4 1
+    1     5     6     5     ; |N1     C2     H21    |NG3P3    CG324    HGA2        |SPMP4 1
+    1     5     7     5     ; |N1     C2     H22    |NG3P3    CG324    HGA2        |SPMP4 1
+    1     5     8     5     ; |N1     C2     C3     |NG3P3    CG324    CG321       |SPMP4 1
+    6     5     7     5     ; |H21    C2     H22    |HGA2     CG324    HGA2        |SPMP4 1
+    6     5     8     5     ; |H21    C2     C3     |HGA2     CG324    CG321       |SPMP4 1
+    7     5     8     5     ; |H22    C2     C3     |HGA2     CG324    CG321       |SPMP4 1
+    5     8     9     5     ; |C2     C3     H31    |CG324    CG321    HGA2        |SPMP4 1
+    5     8    10     5     ; |C2     C3     H32    |CG324    CG321    HGA2        |SPMP4 1
+    5     8    11     5     ; |C2     C3     C4     |CG324    CG321    CG324       |SPMP4 1
+    9     8    10     5     ; |H31    C3     H32    |HGA2     CG321    HGA2        |SPMP4 1
+    9     8    11     5     ; |H31    C3     C4     |HGA2     CG321    CG324       |SPMP4 1
+   10     8    11     5     ; |H32    C3     C4     |HGA2     CG321    CG324       |SPMP4 1
+    8    11    12     5     ; |C3     C4     H41    |CG321    CG324    HGA2        |SPMP4 1
+    8    11    13     5     ; |C3     C4     H42    |CG321    CG324    HGA2        |SPMP4 1
+    8    11    14     5     ; |C3     C4     N5     |CG321    CG324    NG3P2       |SPMP4 1
+   12    11    13     5     ; |H41    C4     H42    |HGA2     CG324    HGA2        |SPMP4 1
+   12    11    14     5     ; |H41    C4     N5     |HGA2     CG324    NG3P2       |SPMP4 1
+   13    11    14     5     ; |H42    C4     N5     |HGA2     CG324    NG3P2       |SPMP4 1
+   11    14    15     5     ; |C4     N5     H51    |CG324    NG3P2    HGP2        |SPMP4 1
+   11    14    16     5     ; |C4     N5     H52    |CG324    NG3P2    HGP2        |SPMP4 1
+   11    14    17     5     ; |C4     N5     C6     |CG324    NG3P2    CG324       |SPMP4 1
+   15    14    16     5     ; |H51    N5     H52    |HGP2     NG3P2    HGP2        |SPMP4 1
+   15    14    17     5     ; |H51    N5     C6     |HGP2     NG3P2    CG324       |SPMP4 1
+   16    14    17     5     ; |H52    N5     C6     |HGP2     NG3P2    CG324       |SPMP4 1
+   14    17    18     5     ; |N5     C6     H61    |NG3P2    CG324    HGA2        |SPMP4 1
+   14    17    19     5     ; |N5     C6     H62    |NG3P2    CG324    HGA2        |SPMP4 1
+   14    17    20     5     ; |N5     C6     C7     |NG3P2    CG324    CG321       |SPMP4 1
+   18    17    19     5     ; |H61    C6     H62    |HGA2     CG324    HGA2        |SPMP4 1
+   18    17    20     5     ; |H61    C6     C7     |HGA2     CG324    CG321       |SPMP4 1
+   19    17    20     5     ; |H62    C6     C7     |HGA2     CG324    CG321       |SPMP4 1
+   17    20    21     5     ; |C6     C7     H71    |CG324    CG321    HGA2        |SPMP4 1
+   17    20    22     5     ; |C6     C7     H72    |CG324    CG321    HGA2        |SPMP4 1
+   17    20    23     5     ; |C6     C7     C8     |CG324    CG321    CG321       |SPMP4 1
+   21    20    22     5     ; |H71    C7     H72    |HGA2     CG321    HGA2        |SPMP4 1
+   21    20    23     5     ; |H71    C7     C8     |HGA2     CG321    CG321       |SPMP4 1
+   22    20    23     5     ; |H72    C7     C8     |HGA2     CG321    CG321       |SPMP4 1
+   20    23    24     5     ; |C7     C8     H81    |CG321    CG321    HGA2        |SPMP4 1
+   20    23    25     5     ; |C7     C8     H82    |CG321    CG321    HGA2        |SPMP4 1
+   20    23    26     5     ; |C7     C8     C9     |CG321    CG321    CG324       |SPMP4 1
+   24    23    25     5     ; |H81    C8     H82    |HGA2     CG321    HGA2        |SPMP4 1
+   24    23    26     5     ; |H81    C8     C9     |HGA2     CG321    CG324       |SPMP4 1
+   25    23    26     5     ; |H82    C8     C9     |HGA2     CG321    CG324       |SPMP4 1
+   23    26    27     5     ; |C8     C9     H91    |CG321    CG324    HGA2        |SPMP4 1
+   23    26    28     5     ; |C8     C9     H92    |CG321    CG324    HGA2        |SPMP4 1
+   23    26    29     5     ; |C8     C9     N10    |CG321    CG324    NG3P2       |SPMP4 1
+   27    26    28     5     ; |H91    C9     H92    |HGA2     CG324    HGA2        |SPMP4 1
+   27    26    29     5     ; |H91    C9     N10    |HGA2     CG324    NG3P2       |SPMP4 1
+   28    26    29     5     ; |H92    C9     N10    |HGA2     CG324    NG3P2       |SPMP4 1
+   26    29    30     5     ; |C9     N10    H101   |CG324    NG3P2    HGP2        |SPMP4 1
+   26    29    31     5     ; |C9     N10    H102   |CG324    NG3P2    HGP2        |SPMP4 1
+   26    29    32     5     ; |C9     N10    C11    |CG324    NG3P2    CG324       |SPMP4 1
+   30    29    31     5     ; |H101   N10    H102   |HGP2     NG3P2    HGP2        |SPMP4 1
+   30    29    32     5     ; |H101   N10    C11    |HGP2     NG3P2    CG324       |SPMP4 1
+   31    29    32     5     ; |H102   N10    C11    |HGP2     NG3P2    CG324       |SPMP4 1
+   29    32    33     5     ; |N10    C11    H111   |NG3P2    CG324    HGA2        |SPMP4 1
+   29    32    34     5     ; |N10    C11    H112   |NG3P2    CG324    HGA2        |SPMP4 1
+   29    32    35     5     ; |N10    C11    C12    |NG3P2    CG324    CG321       |SPMP4 1
+   33    32    34     5     ; |H111   C11    H112   |HGA2     CG324    HGA2        |SPMP4 1
+   33    32    35     5     ; |H111   C11    C12    |HGA2     CG324    CG321       |SPMP4 1
+   34    32    35     5     ; |H112   C11    C12    |HGA2     CG324    CG321       |SPMP4 1
+   32    35    36     5     ; |C11    C12    H121   |CG324    CG321    HGA2        |SPMP4 1
+   32    35    37     5     ; |C11    C12    H122   |CG324    CG321    HGA2        |SPMP4 1
+   32    35    38     5     ; |C11    C12    C13    |CG324    CG321    CG324       |SPMP4 1
+   36    35    37     5     ; |H121   C12    H122   |HGA2     CG321    HGA2        |SPMP4 1
+   36    35    38     5     ; |H121   C12    C13    |HGA2     CG321    CG324       |SPMP4 1
+   37    35    38     5     ; |H122   C12    C13    |HGA2     CG321    CG324       |SPMP4 1
+   35    38    39     5     ; |C12    C13    H131   |CG321    CG324    HGA2        |SPMP4 1
+   35    38    40     5     ; |C12    C13    H132   |CG321    CG324    HGA2        |SPMP4 1
+   35    38    41     5     ; |C12    C13    N14    |CG321    CG324    NG3P3       |SPMP4 1
+   39    38    40     5     ; |H131   C13    H132   |HGA2     CG324    HGA2        |SPMP4 1
+   39    38    41     5     ; |H131   C13    N14    |HGA2     CG324    NG3P3       |SPMP4 1
+   40    38    41     5     ; |H132   C13    N14    |HGA2     CG324    NG3P3       |SPMP4 1
+   38    41    42     5     ; |C13    N14    H141   |CG324    NG3P3    HGP2        |SPMP4 1
+   38    41    43     5     ; |C13    N14    H142   |CG324    NG3P3    HGP2        |SPMP4 1
+   38    41    44     5     ; |C13    N14    H143   |CG324    NG3P3    HGP2        |SPMP4 1
+   42    41    43     5     ; |H141   N14    H142   |HGP2     NG3P3    HGP2        |SPMP4 1
+   42    41    44     5     ; |H141   N14    H143   |HGP2     NG3P3    HGP2        |SPMP4 1
+   43    41    44     5     ; |H142   N14    H143   |HGP2     NG3P3    HGP2        |SPMP4 1
+[ dihedrals ]
+;  ai    aj    ak    al funct   phi0     cp     mult
+    2     1     5     6     9     ; |H11    N1     C2     H21    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    2     1     5     7     9     ; |H11    N1     C2     H22    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    2     1     5     8     9     ; |H11    N1     C2     C3     |HGP2     NG3P3    CG324    CG321       |SPMP4 1
+    3     1     5     6     9     ; |H12    N1     C2     H21    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    3     1     5     7     9     ; |H12    N1     C2     H22    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    3     1     5     8     9     ; |H12    N1     C2     C3     |HGP2     NG3P3    CG324    CG321       |SPMP4 1
+    4     1     5     6     9     ; |H13    N1     C2     H21    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    4     1     5     7     9     ; |H13    N1     C2     H22    |HGP2     NG3P3    CG324    HGA2        |SPMP4 1
+    4     1     5     8     9     ; |H13    N1     C2     C3     |HGP2     NG3P3    CG324    CG321       |SPMP4 1
+    1     5     8     9     9     ; |N1     C2     C3     H31    |NG3P3    CG324    CG321    HGA2        |SPMP4 1
+    1     5     8    10     9     ; |N1     C2     C3     H32    |NG3P3    CG324    CG321    HGA2        |SPMP4 1
+    1     5     8    11     9     ; |N1     C2     C3     C4     |NG3P3    CG324    CG321    CG324       |SPMP4 1
+    6     5     8     9     9     ; |H21    C2     C3     H31    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+    6     5     8    10     9     ; |H21    C2     C3     H32    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+    6     5     8    11     9     ; |H21    C2     C3     C4     |HGA2     CG324    CG321    CG324       |SPMP4 1
+    7     5     8     9     9     ; |H22    C2     C3     H31    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+    7     5     8    10     9     ; |H22    C2     C3     H32    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+    7     5     8    11     9     ; |H22    C2     C3     C4     |HGA2     CG324    CG321    CG324       |SPMP4 1
+    5     8    11    12     9     ; |C2     C3     C4     H41    |CG324    CG321    CG324    HGA2        |SPMP4 1
+    5     8    11    13     9     ; |C2     C3     C4     H42    |CG324    CG321    CG324    HGA2        |SPMP4 1
+    5     8    11    14     9     ; |C2     C3     C4     N5     |CG324    CG321    CG324    NG3P2       |SPMP4 1
+    9     8    11    12     9     ; |H31    C3     C4     H41    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+    9     8    11    13     9     ; |H31    C3     C4     H42    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+    9     8    11    14     9     ; |H31    C3     C4     N5     |HGA2     CG321    CG324    NG3P2       |SPMP4 1
+   10     8    11    12     9     ; |H32    C3     C4     H41    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   10     8    11    13     9     ; |H32    C3     C4     H42    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   10     8    11    14     9     ; |H32    C3     C4     N5     |HGA2     CG321    CG324    NG3P2       |SPMP4 1
+    8    11    14    15     9     ; |C3     C4     N5     H51    |CG321    CG324    NG3P2    HGP2        |SPMP4 1
+    8    11    14    16     9     ; |C3     C4     N5     H52    |CG321    CG324    NG3P2    HGP2        |SPMP4 1
+    8    11    14    17     9     ; |C3     C4     N5     C6     |CG321    CG324    NG3P2    CG324       |SPMP4 1
+   12    11    14    15     9     ; |H41    C4     N5     H51    |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   12    11    14    16     9     ; |H41    C4     N5     H52    |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   12    11    14    17     9     ; |H41    C4     N5     C6     |HGA2     CG324    NG3P2    CG324       |SPMP4 1
+   13    11    14    15     9     ; |H42    C4     N5     H51    |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   13    11    14    16     9     ; |H42    C4     N5     H52    |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   13    11    14    17     9     ; |H42    C4     N5     C6     |HGA2     CG324    NG3P2    CG324       |SPMP4 1
+   11    14    17    18     9     ; |C4     N5     C6     H61    |CG324    NG3P2    CG324    HGA2        |SPMP4 1
+   11    14    17    19     9     ; |C4     N5     C6     H62    |CG324    NG3P2    CG324    HGA2        |SPMP4 1
+   11    14    17    20     9     ; |C4     N5     C6     C7     |CG324    NG3P2    CG324    CG321       |SPMP4 1
+   15    14    17    18     9     ; |H51    N5     C6     H61    |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   15    14    17    19     9     ; |H51    N5     C6     H62    |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   15    14    17    20     9     ; |H51    N5     C6     C7     |HGP2     NG3P2    CG324    CG321       |SPMP4 1
+   16    14    17    18     9     ; |H52    N5     C6     H61    |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   16    14    17    19     9     ; |H52    N5     C6     H62    |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   16    14    17    20     9     ; |H52    N5     C6     C7     |HGP2     NG3P2    CG324    CG321       |SPMP4 1
+   14    17    20    21     9     ; |N5     C6     C7     H71    |NG3P2    CG324    CG321    HGA2        |SPMP4 1
+   14    17    20    22     9     ; |N5     C6     C7     H72    |NG3P2    CG324    CG321    HGA2        |SPMP4 1
+   14    17    20    23     9     ; |N5     C6     C7     C8     |NG3P2    CG324    CG321    CG321       |SPMP4 1
+   18    17    20    21     9     ; |H61    C6     C7     H71    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   18    17    20    22     9     ; |H61    C6     C7     H72    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   18    17    20    23     9     ; |H61    C6     C7     C8     |HGA2     CG324    CG321    CG321       |SPMP4 1
+   19    17    20    21     9     ; |H62    C6     C7     H71    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   19    17    20    22     9     ; |H62    C6     C7     H72    |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   19    17    20    23     9     ; |H62    C6     C7     C8     |HGA2     CG324    CG321    CG321       |SPMP4 1
+   17    20    23    24     9     ; |C6     C7     C8     H81    |CG324    CG321    CG321    HGA2        |SPMP4 1
+   17    20    23    25     9     ; |C6     C7     C8     H82    |CG324    CG321    CG321    HGA2        |SPMP4 1
+   17    20    23    26     9     ; |C6     C7     C8     C9     |CG324    CG321    CG321    CG324       |SPMP4 1
+   21    20    23    24     9     ; |H71    C7     C8     H81    |HGA2     CG321    CG321    HGA2        |SPMP4 1
+   21    20    23    25     9     ; |H71    C7     C8     H82    |HGA2     CG321    CG321    HGA2        |SPMP4 1
+   21    20    23    26     9     ; |H71    C7     C8     C9     |HGA2     CG321    CG321    CG324       |SPMP4 1
+   22    20    23    24     9     ; |H72    C7     C8     H81    |HGA2     CG321    CG321    HGA2        |SPMP4 1
+   22    20    23    25     9     ; |H72    C7     C8     H82    |HGA2     CG321    CG321    HGA2        |SPMP4 1
+   22    20    23    26     9     ; |H72    C7     C8     C9     |HGA2     CG321    CG321    CG324       |SPMP4 1
+   20    23    26    27     9     ; |C7     C8     C9     H91    |CG321    CG321    CG324    HGA2        |SPMP4 1
+   20    23    26    28     9     ; |C7     C8     C9     H92    |CG321    CG321    CG324    HGA2        |SPMP4 1
+   20    23    26    29     9     ; |C7     C8     C9     N10    |CG321    CG321    CG324    NG3P2       |SPMP4 1
+   24    23    26    27     9     ; |H81    C8     C9     H91    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   24    23    26    28     9     ; |H81    C8     C9     H92    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   24    23    26    29     9     ; |H81    C8     C9     N10    |HGA2     CG321    CG324    NG3P2       |SPMP4 1
+   25    23    26    27     9     ; |H82    C8     C9     H91    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   25    23    26    28     9     ; |H82    C8     C9     H92    |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   25    23    26    29     9     ; |H82    C8     C9     N10    |HGA2     CG321    CG324    NG3P2       |SPMP4 1
+   23    26    29    30     9     ; |C8     C9     N10    H101   |CG321    CG324    NG3P2    HGP2        |SPMP4 1
+   23    26    29    31     9     ; |C8     C9     N10    H102   |CG321    CG324    NG3P2    HGP2        |SPMP4 1
+   23    26    29    32     9     ; |C8     C9     N10    C11    |CG321    CG324    NG3P2    CG324       |SPMP4 1
+   27    26    29    30     9     ; |H91    C9     N10    H101   |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   27    26    29    31     9     ; |H91    C9     N10    H102   |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   27    26    29    32     9     ; |H91    C9     N10    C11    |HGA2     CG324    NG3P2    CG324       |SPMP4 1
+   28    26    29    30     9     ; |H92    C9     N10    H101   |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   28    26    29    31     9     ; |H92    C9     N10    H102   |HGA2     CG324    NG3P2    HGP2        |SPMP4 1
+   28    26    29    32     9     ; |H92    C9     N10    C11    |HGA2     CG324    NG3P2    CG324       |SPMP4 1
+   26    29    32    33     9     ; |C9     N10    C11    H111   |CG324    NG3P2    CG324    HGA2        |SPMP4 1
+   26    29    32    34     9     ; |C9     N10    C11    H112   |CG324    NG3P2    CG324    HGA2        |SPMP4 1
+   26    29    32    35     9     ; |C9     N10    C11    C12    |CG324    NG3P2    CG324    CG321       |SPMP4 1
+   30    29    32    33     9     ; |H101   N10    C11    H111   |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   30    29    32    34     9     ; |H101   N10    C11    H112   |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   30    29    32    35     9     ; |H101   N10    C11    C12    |HGP2     NG3P2    CG324    CG321       |SPMP4 1
+   31    29    32    33     9     ; |H102   N10    C11    H111   |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   31    29    32    34     9     ; |H102   N10    C11    H112   |HGP2     NG3P2    CG324    HGA2        |SPMP4 1
+   31    29    32    35     9     ; |H102   N10    C11    C12    |HGP2     NG3P2    CG324    CG321       |SPMP4 1
+   29    32    35    36     9     ; |N10    C11    C12    H121   |NG3P2    CG324    CG321    HGA2        |SPMP4 1
+   29    32    35    37     9     ; |N10    C11    C12    H122   |NG3P2    CG324    CG321    HGA2        |SPMP4 1
+   29    32    35    38     9     ; |N10    C11    C12    C13    |NG3P2    CG324    CG321    CG324       |SPMP4 1
+   33    32    35    36     9     ; |H111   C11    C12    H121   |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   33    32    35    37     9     ; |H111   C11    C12    H122   |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   33    32    35    38     9     ; |H111   C11    C12    C13    |HGA2     CG324    CG321    CG324       |SPMP4 1
+   34    32    35    36     9     ; |H112   C11    C12    H121   |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   34    32    35    37     9     ; |H112   C11    C12    H122   |HGA2     CG324    CG321    HGA2        |SPMP4 1
+   34    32    35    38     9     ; |H112   C11    C12    C13    |HGA2     CG324    CG321    CG324       |SPMP4 1
+   32    35    38    39     9     ; |C11    C12    C13    H131   |CG324    CG321    CG324    HGA2        |SPMP4 1
+   32    35    38    40     9     ; |C11    C12    C13    H132   |CG324    CG321    CG324    HGA2        |SPMP4 1
+   32    35    38    41     9     ; |C11    C12    C13    N14    |CG324    CG321    CG324    NG3P3       |SPMP4 1
+   36    35    38    39     9     ; |H121   C12    C13    H131   |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   36    35    38    40     9     ; |H121   C12    C13    H132   |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   36    35    38    41     9     ; |H121   C12    C13    N14    |HGA2     CG321    CG324    NG3P3       |SPMP4 1
+   37    35    38    39     9     ; |H122   C12    C13    H131   |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   37    35    38    40     9     ; |H122   C12    C13    H132   |HGA2     CG321    CG324    HGA2        |SPMP4 1
+   37    35    38    41     9     ; |H122   C12    C13    N14    |HGA2     CG321    CG324    NG3P3       |SPMP4 1
+   35    38    41    42     9     ; |C12    C13    N14    H141   |CG321    CG324    NG3P3    HGP2        |SPMP4 1
+   35    38    41    43     9     ; |C12    C13    N14    H142   |CG321    CG324    NG3P3    HGP2        |SPMP4 1
+   35    38    41    44     9     ; |C12    C13    N14    H143   |CG321    CG324    NG3P3    HGP2        |SPMP4 1
+   39    38    41    42     9     ; |H131   C13    N14    H141   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+   39    38    41    43     9     ; |H131   C13    N14    H142   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+   39    38    41    44     9     ; |H131   C13    N14    H143   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+   40    38    41    42     9     ; |H132   C13    N14    H141   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+   40    38    41    43     9     ; |H132   C13    N14    H142   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+   40    38    41    44     9     ; |H132   C13    N14    H143   |HGA2     CG324    NG3P3    HGP2        |SPMP4 1
+
+#include "posre_spm4.itp"
+

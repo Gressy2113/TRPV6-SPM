@@ -1,0 +1,39 @@
+[ angletypes ]
+
+;C2     C3     C4     |CG324    CG321    CG324
+CG324    CG321    CG324 5   110.500000   488.272800   0.25610000      9338.69; CG321    CG311    CG324 ;CG311    CG321    CG324;CG321    CG321    CG324
+
+
+[ dihedraltypes ]
+
+#define dih_C2_C2_N  9     0.000000     1.255200     3
+
+;toppar_all36_na_rna_modified.str:
+;C2-C3-C4-N5
+;TODO cvt
+CG324 CG321 CG321 NG311  dih_C2_C2_N ;CG321  CG321  CG321  NG311      0.3000  3     0.00 ! K2Cn, from prnc, yxu
+
+;C3-C4-N5-H51
+CG321 CG321 NG311 HGP1 dih_C2_C2_N ;CG321  CG321  NG311  HGPAM1
+
+;C3-C4-N5-C6
+CG321 CG321 NG311 CG321 dih_C2_C2_N ;CG331  CG321  CG321  NG311      0.3000  3     0.00 ! prnc, yxu
+
+;N1 C2 C3 C4
+NG321 CG321 CG321 CG321 9     0.000000     0.815880     3; NG321    CG311    CG321    CG321.....
+
+;N1     C2     C3     C4     |NG3P3    CG324    CG321    CG324
+NG3P3    CG324    CG321    CG324 9     0.000000     0.815880     3 ;CG321    CG321    CG324    NG3P3.....
+
+;H21    C2     C3     C4     |HGA2     CG324    CG321    CG324
+HGA2     CG324    CG321    CG324 9     0.000000     0.815880     3;CG321    CG321    CG324     HGA2
+
+;C2     C3     C4     H41    |CG324    CG321    CG324    HGA2.
+CG324    CG321    CG324    HGA2 9     0.000000     0.815880     3;CG321  CG321  CG324  HGA2.
+
+;C2     C3     C4     N5     |CG324    CG321    CG324    NG3P2.
+CG324    CG321    CG324    NG3P2 9     0.000000     4.184000     3 ;CG321  CG321  CG324  NG3P2.
+
+
+#undef dih_C2_C2_N
+

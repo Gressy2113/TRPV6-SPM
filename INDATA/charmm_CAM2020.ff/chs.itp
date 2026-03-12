@@ -1,0 +1,918 @@
+;Topology of CHS in charmm36 
+[ moleculetype ]
+CHS 3
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass
+;residue     1 CHS
+     1        OSL      1    CHS     O3      1      -0.49    15.9994   ; qtot -0.49
+     2         CL      1    CHS    C4'      2        0.9     12.011   ; qtot 0.41
+     3        OBL      1    CHS    O2'      3      -0.63    15.9994   ; qtot -0.22
+     4       CTL2      1    CHS    C5'      4      -0.22     12.011   ; qtot -0.44
+     5       HAL2      1    CHS   H5A'      5       0.09      1.008   ; qtot -0.35
+     6       HAL2      1    CHS   H5B'      6       0.09      1.008   ; qtot -0.26
+     7       CTL2      1    CHS    C6'      7      -0.28     12.011   ; qtot -0.54
+     8       HAL2      1    CHS   H6A'      8       0.09      1.008   ; qtot -0.45
+     9       HAL2      1    CHS   H6B'      9       0.09      1.008   ; qtot -0.36
+    10         CL      1    CHS    C7'     10       0.62     12.011   ; qtot 0.26
+    11        OCL      1    CHS    O3'     11      -0.76    15.9994   ; qtot -0.5
+    12        OCL      1    CHS    O4'     12      -0.76    15.9994   ; qtot -1.26
+    13       CRL1      1    CHS     C3     13       0.17     12.011   ; qtot -1.09
+    14       HGA1      1    CHS     H3     14       0.09      1.008   ; qtot -1
+    15       CRL2      1    CHS     C4     15      -0.18     12.011   ; qtot -1.18
+    16       HGA2      1    CHS    H4A     16       0.09      1.008   ; qtot -1.09
+    17       HGA2      1    CHS    H4B     17       0.09      1.008   ; qtot -1
+    18       CEL1      1    CHS     C5     18          0     12.011   ; qtot -1
+    19       CEL1      1    CHS     C6     19      -0.15     12.011   ; qtot -1.15
+    20       HEL1      1    CHS     H6     20       0.15      1.008   ; qtot -1
+    21       CRL2      1    CHS     C7     21      -0.18     12.011   ; qtot -1.18
+    22       HGA2      1    CHS    H7A     22       0.09      1.008   ; qtot -1.09
+    23       HGA2      1    CHS    H7B     23       0.09      1.008   ; qtot -1
+    24       CRL1      1    CHS     C8     24      -0.09     12.011   ; qtot -1.09
+    25       HGA1      1    CHS     H8     25       0.09      1.008   ; qtot -1
+    26       CRL1      1    CHS    C14     26      -0.09     12.011   ; qtot -1.09
+    27       HGA1      1    CHS    H14     27       0.09      1.008   ; qtot -1
+    28       CRL2      1    CHS    C15     28      -0.18     12.011   ; qtot -1.18
+    29       HGA2      1    CHS   H15A     29       0.09      1.008   ; qtot -1.09
+    30       HGA2      1    CHS   H15B     30       0.09      1.008   ; qtot -1
+    31       CRL2      1    CHS    C16     31      -0.18     12.011   ; qtot -1.18
+    32       HGA2      1    CHS   H16A     32       0.09      1.008   ; qtot -1.09
+    33       HGA2      1    CHS   H16B     33       0.09      1.008   ; qtot -1
+    34       CRL1      1    CHS    C17     34      -0.09     12.011   ; qtot -1.09
+    35       HGA1      1    CHS    H17     35       0.09      1.008   ; qtot -1
+    36       CRL1      1    CHS    C13     36          0     12.011   ; qtot -1
+    37       CTL3      1    CHS    C18     37      -0.27     12.011   ; qtot -1.27
+    38       HAL3      1    CHS   H18A     38       0.09      1.008   ; qtot -1.18
+    39       HAL3      1    CHS   H18B     39       0.09      1.008   ; qtot -1.09
+    40       HAL3      1    CHS   H18C     40       0.09      1.008   ; qtot -1
+    41       CRL2      1    CHS    C12     41      -0.18     12.011   ; qtot -1.18
+    42       HGA2      1    CHS   H12A     42       0.09      1.008   ; qtot -1.09
+    43       HGA2      1    CHS   H12B     43       0.09      1.008   ; qtot -1
+    44       CRL2      1    CHS    C11     44      -0.18     12.011   ; qtot -1.18
+    45       HGA2      1    CHS   H11A     45       0.09      1.008   ; qtot -1.09
+    46       HGA2      1    CHS   H11B     46       0.09      1.008   ; qtot -1
+    47       CRL1      1    CHS     C9     47      -0.09     12.011   ; qtot -1.09
+    48       HGA1      1    CHS     H9     48       0.09      1.008   ; qtot -1
+    49       CRL1      1    CHS    C10     49          0     12.011   ; qtot -1
+    50       CTL3      1    CHS    C19     50      -0.27     12.011   ; qtot -1.27
+    51       HAL3      1    CHS   H19A     51       0.09      1.008   ; qtot -1.18
+    52       HAL3      1    CHS   H19B     52       0.09      1.008   ; qtot -1.09
+    53       HAL3      1    CHS   H19C     53       0.09      1.008   ; qtot -1
+    54       CRL2      1    CHS     C1     54      -0.18     12.011   ; qtot -1.18
+    55       HGA2      1    CHS    H1A     55       0.09      1.008   ; qtot -1.09
+    56       HGA2      1    CHS    H1B     56       0.09      1.008   ; qtot -1
+    57       CRL2      1    CHS     C2     57      -0.18     12.011   ; qtot -1.18
+    58       HGA2      1    CHS    H2A     58       0.09      1.008   ; qtot -1.09
+    59       HGA2      1    CHS    H2B     59       0.09      1.008   ; qtot -1
+    60       CTL1      1    CHS    C20     60      -0.09     12.011   ; qtot -1.09
+    61       HAL1      1    CHS    H20     61       0.09      1.008   ; qtot -1
+    62       CTL3      1    CHS    C21     62      -0.27     12.011   ; qtot -1.27
+    63       HAL3      1    CHS   H21A     63       0.09      1.008   ; qtot -1.18
+    64       HAL3      1    CHS   H21B     64       0.09      1.008   ; qtot -1.09
+    65       HAL3      1    CHS   H21C     65       0.09      1.008   ; qtot -1
+    66       CTL2      1    CHS    C22     66      -0.18     12.011   ; qtot -1.18
+    67       HAL2      1    CHS   H22A     67       0.09      1.008   ; qtot -1.09
+    68       HAL2      1    CHS   H22B     68       0.09      1.008   ; qtot -1
+    69       CTL2      1    CHS    C23     69      -0.18     12.011   ; qtot -1.18
+    70       HAL2      1    CHS   H23A     70       0.09      1.008   ; qtot -1.09
+    71       HAL2      1    CHS   H23B     71       0.09      1.008   ; qtot -1
+    72       CTL2      1    CHS    C24     72      -0.18     12.011   ; qtot -1.18
+    73       HAL2      1    CHS   H24A     73       0.09      1.008   ; qtot -1.09
+    74       HAL2      1    CHS   H24B     74       0.09      1.008   ; qtot -1
+    75       CTL1      1    CHS    C25     75      -0.09     12.011   ; qtot -1.09
+    76       HAL1      1    CHS    H25     76       0.09      1.008   ; qtot -1
+    77       CTL3      1    CHS    C26     77      -0.27     12.011   ; qtot -1.27
+    78       HAL3      1    CHS   H26A     78       0.09      1.008   ; qtot -1.18
+    79       HAL3      1    CHS   H26B     79       0.09      1.008   ; qtot -1.09
+    80       HAL3      1    CHS   H26C     80       0.09      1.008   ; qtot -1
+    81       CTL3      1    CHS    C27     81      -0.27     12.011   ; qtot -1.27
+    82       HAL3      1    CHS   H27A     82       0.09      1.008   ; qtot -1.18
+    83       HAL3      1    CHS   H27B     83       0.09      1.008   ; qtot -1.09
+    84       HAL3      1    CHS   H27C     84       0.09      1.008   ; qtot -1
+;qres: -1
+;qtot: -1
+[ bonds ]
+;     ai      aj    func          b0          cb
+    1     2     1     ; |O3     C4'    |OSL      CL          |CHS 1
+    1    13     1     ; |O3     C3     |OSL      CRL1        |CHS 1
+    2     3     1     ; |C4'    O2'    |CL       OBL         |CHS 1
+    2     4     1     ; |C4'    C5'    |CL       CTL2        |CHS 1
+    4     5     1     ; |C5'    H5A'   |CTL2     HAL2        |CHS 1
+    4     6     1     ; |C5'    H5B'   |CTL2     HAL2        |CHS 1
+    4     7     1     ; |C5'    C6'    |CTL2     CTL2        |CHS 1
+    7     8     1     ; |C6'    H6A'   |CTL2     HAL2        |CHS 1
+    7     9     1     ; |C6'    H6B'   |CTL2     HAL2        |CHS 1
+    7    10     1     ; |C6'    C7'    |CTL2     CL          |CHS 1
+   10    11     1     ; |C7'    O3'    |CL       OCL         |CHS 1
+   10    12     1     ; |C7'    O4'    |CL       OCL         |CHS 1
+   13    14     1     ; |C3     H3     |CRL1     HGA1        |CHS 1
+   13    15     1     ; |C3     C4     |CRL1     CRL2        |CHS 1
+   13    57     1     ; |C3     C2     |CRL1     CRL2        |CHS 1
+   15    16     1     ; |C4     H4A    |CRL2     HGA2        |CHS 1
+   15    17     1     ; |C4     H4B    |CRL2     HGA2        |CHS 1
+   15    18     1     ; |C4     C5     |CRL2     CEL1        |CHS 1
+   18    19     1     ; |C5     C6     |CEL1     CEL1        |CHS 1
+   18    49     1     ; |C5     C10    |CEL1     CRL1        |CHS 1
+   19    20     1     ; |C6     H6     |CEL1     HEL1        |CHS 1
+   19    21     1     ; |C6     C7     |CEL1     CRL2        |CHS 1
+   21    22     1     ; |C7     H7A    |CRL2     HGA2        |CHS 1
+   21    23     1     ; |C7     H7B    |CRL2     HGA2        |CHS 1
+   21    24     1     ; |C7     C8     |CRL2     CRL1        |CHS 1
+   24    25     1     ; |C8     H8     |CRL1     HGA1        |CHS 1
+   24    26     1     ; |C8     C14    |CRL1     CRL1        |CHS 1
+   24    47     1     ; |C8     C9     |CRL1     CRL1        |CHS 1
+   26    27     1     ; |C14    H14    |CRL1     HGA1        |CHS 1
+   26    28     1     ; |C14    C15    |CRL1     CRL2        |CHS 1
+   26    36     1     ; |C14    C13    |CRL1     CRL1        |CHS 1
+   28    29     1     ; |C15    H15A   |CRL2     HGA2        |CHS 1
+   28    30     1     ; |C15    H15B   |CRL2     HGA2        |CHS 1
+   28    31     1     ; |C15    C16    |CRL2     CRL2        |CHS 1
+   31    32     1     ; |C16    H16A   |CRL2     HGA2        |CHS 1
+   31    33     1     ; |C16    H16B   |CRL2     HGA2        |CHS 1
+   31    34     1     ; |C16    C17    |CRL2     CRL1        |CHS 1
+   34    35     1     ; |C17    H17    |CRL1     HGA1        |CHS 1
+   34    36     1     ; |C17    C13    |CRL1     CRL1        |CHS 1
+   34    60     1     ; |C17    C20    |CRL1     CTL1        |CHS 1
+   36    37     1     ; |C13    C18    |CRL1     CTL3        |CHS 1
+   36    41     1     ; |C13    C12    |CRL1     CRL2        |CHS 1
+   37    38     1     ; |C18    H18A   |CTL3     HAL3        |CHS 1
+   37    39     1     ; |C18    H18B   |CTL3     HAL3        |CHS 1
+   37    40     1     ; |C18    H18C   |CTL3     HAL3        |CHS 1
+   41    42     1     ; |C12    H12A   |CRL2     HGA2        |CHS 1
+   41    43     1     ; |C12    H12B   |CRL2     HGA2        |CHS 1
+   41    44     1     ; |C12    C11    |CRL2     CRL2        |CHS 1
+   44    45     1     ; |C11    H11A   |CRL2     HGA2        |CHS 1
+   44    46     1     ; |C11    H11B   |CRL2     HGA2        |CHS 1
+   44    47     1     ; |C11    C9     |CRL2     CRL1        |CHS 1
+   47    48     1     ; |C9     H9     |CRL1     HGA1        |CHS 1
+   47    49     1     ; |C9     C10    |CRL1     CRL1        |CHS 1
+   49    50     1     ; |C10    C19    |CRL1     CTL3        |CHS 1
+   49    54     1     ; |C10    C1     |CRL1     CRL2        |CHS 1
+   50    51     1     ; |C19    H19A   |CTL3     HAL3        |CHS 1
+   50    52     1     ; |C19    H19B   |CTL3     HAL3        |CHS 1
+   50    53     1     ; |C19    H19C   |CTL3     HAL3        |CHS 1
+   54    55     1     ; |C1     H1A    |CRL2     HGA2        |CHS 1
+   54    56     1     ; |C1     H1B    |CRL2     HGA2        |CHS 1
+   54    57     1     ; |C1     C2     |CRL2     CRL2        |CHS 1
+   57    58     1     ; |C2     H2A    |CRL2     HGA2        |CHS 1
+   57    59     1     ; |C2     H2B    |CRL2     HGA2        |CHS 1
+   60    61     1     ; |C20    H20    |CTL1     HAL1        |CHS 1
+   60    62     1     ; |C20    C21    |CTL1     CTL3        |CHS 1
+   60    66     1     ; |C20    C22    |CTL1     CTL2        |CHS 1
+   62    63     1     ; |C21    H21A   |CTL3     HAL3        |CHS 1
+   62    64     1     ; |C21    H21B   |CTL3     HAL3        |CHS 1
+   62    65     1     ; |C21    H21C   |CTL3     HAL3        |CHS 1
+   66    67     1     ; |C22    H22A   |CTL2     HAL2        |CHS 1
+   66    68     1     ; |C22    H22B   |CTL2     HAL2        |CHS 1
+   66    69     1     ; |C22    C23    |CTL2     CTL2        |CHS 1
+   69    70     1     ; |C23    H23A   |CTL2     HAL2        |CHS 1
+   69    71     1     ; |C23    H23B   |CTL2     HAL2        |CHS 1
+   69    72     1     ; |C23    C24    |CTL2     CTL2        |CHS 1
+   72    73     1     ; |C24    H24A   |CTL2     HAL2        |CHS 1
+   72    74     1     ; |C24    H24B   |CTL2     HAL2        |CHS 1
+   72    75     1     ; |C24    C25    |CTL2     CTL1        |CHS 1
+   75    76     1     ; |C25    H25    |CTL1     HAL1        |CHS 1
+   75    77     1     ; |C25    C26    |CTL1     CTL3        |CHS 1
+   75    81     1     ; |C25    C27    |CTL1     CTL3        |CHS 1
+   77    78     1     ; |C26    H26A   |CTL3     HAL3        |CHS 1
+   77    79     1     ; |C26    H26B   |CTL3     HAL3        |CHS 1
+   77    80     1     ; |C26    H26C   |CTL3     HAL3        |CHS 1
+   81    82     1     ; |C27    H27A   |CTL3     HAL3        |CHS 1
+   81    83     1     ; |C27    H27B   |CTL3     HAL3        |CHS 1
+   81    84     1     ; |C27    H27C   |CTL3     HAL3        |CHS 1
+[ pairs ]
+;  ai    aj funct
+    1     5     1     ; |O3     H5A'   |OSL      HAL2        |CHS 1
+    1     6     1     ; |O3     H5B'   |OSL      HAL2        |CHS 1
+    1     7     1     ; |O3     C6'    |OSL      CTL2        |CHS 1
+    1    16     1     ; |O3     H4A    |OSL      HGA2        |CHS 1
+    1    17     1     ; |O3     H4B    |OSL      HGA2        |CHS 1
+    1    18     1     ; |O3     C5     |OSL      CEL1        |CHS 1
+    1    54     1     ; |O3     C1     |OSL      CRL2        |CHS 1
+    1    58     1     ; |O3     H2A    |OSL      HGA2        |CHS 1
+    1    59     1     ; |O3     H2B    |OSL      HGA2        |CHS 1
+    2     8     1     ; |C4'    H6A'   |CL       HAL2        |CHS 1
+    2     9     1     ; |C4'    H6B'   |CL       HAL2        |CHS 1
+    2    10     1     ; |C4'    C7'    |CL       CL          |CHS 1
+    2    14     1     ; |C4'    H3     |CL       HGA1        |CHS 1
+    2    15     1     ; |C4'    C4     |CL       CRL2        |CHS 1
+    2    57     1     ; |C4'    C2     |CL       CRL2        |CHS 1
+    3     5     1     ; |O2'    H5A'   |OBL      HAL2        |CHS 1
+    3     6     1     ; |O2'    H5B'   |OBL      HAL2        |CHS 1
+    3     7     1     ; |O2'    C6'    |OBL      CTL2        |CHS 1
+    3    13     1     ; |O2'    C3     |OBL      CRL1        |CHS 1
+    4    11     1     ; |C5'    O3'    |CTL2     OCL         |CHS 1
+    4    12     1     ; |C5'    O4'    |CTL2     OCL         |CHS 1
+    4    13     1     ; |C5'    C3     |CTL2     CRL1        |CHS 1
+    5     8     1     ; |H5A'   H6A'   |HAL2     HAL2        |CHS 1
+    5     9     1     ; |H5A'   H6B'   |HAL2     HAL2        |CHS 1
+    5    10     1     ; |H5A'   C7'    |HAL2     CL          |CHS 1
+    6     8     1     ; |H5B'   H6A'   |HAL2     HAL2        |CHS 1
+    6     9     1     ; |H5B'   H6B'   |HAL2     HAL2        |CHS 1
+    6    10     1     ; |H5B'   C7'    |HAL2     CL          |CHS 1
+    8    11     1     ; |H6A'   O3'    |HAL2     OCL         |CHS 1
+    8    12     1     ; |H6A'   O4'    |HAL2     OCL         |CHS 1
+    9    11     1     ; |H6B'   O3'    |HAL2     OCL         |CHS 1
+    9    12     1     ; |H6B'   O4'    |HAL2     OCL         |CHS 1
+   13    19     1     ; |C3     C6     |CRL1     CEL1        |CHS 1
+   13    49     1     ; |C3     C10    |CRL1     CRL1        |CHS 1
+   13    55     1     ; |C3     H1A    |CRL1     HGA2        |CHS 1
+   13    56     1     ; |C3     H1B    |CRL1     HGA2        |CHS 1
+   14    16     1     ; |H3     H4A    |HGA1     HGA2        |CHS 1
+   14    17     1     ; |H3     H4B    |HGA1     HGA2        |CHS 1
+   14    18     1     ; |H3     C5     |HGA1     CEL1        |CHS 1
+   14    54     1     ; |H3     C1     |HGA1     CRL2        |CHS 1
+   14    58     1     ; |H3     H2A    |HGA1     HGA2        |CHS 1
+   14    59     1     ; |H3     H2B    |HGA1     HGA2        |CHS 1
+   15    20     1     ; |C4     H6     |CRL2     HEL1        |CHS 1
+   15    21     1     ; |C4     C7     |CRL2     CRL2        |CHS 1
+   15    47     1     ; |C4     C9     |CRL2     CRL1        |CHS 1
+   15    50     1     ; |C4     C19    |CRL2     CTL3        |CHS 1
+   15    54     1     ; |C4     C1     |CRL2     CRL2        |CHS 1
+   15    58     1     ; |C4     H2A    |CRL2     HGA2        |CHS 1
+   15    59     1     ; |C4     H2B    |CRL2     HGA2        |CHS 1
+   16    19     1     ; |H4A    C6     |HGA2     CEL1        |CHS 1
+   16    49     1     ; |H4A    C10    |HGA2     CRL1        |CHS 1
+   16    57     1     ; |H4A    C2     |HGA2     CRL2        |CHS 1
+   17    19     1     ; |H4B    C6     |HGA2     CEL1        |CHS 1
+   17    49     1     ; |H4B    C10    |HGA2     CRL1        |CHS 1
+   17    57     1     ; |H4B    C2     |HGA2     CRL2        |CHS 1
+   18    22     1     ; |C5     H7A    |CEL1     HGA2        |CHS 1
+   18    23     1     ; |C5     H7B    |CEL1     HGA2        |CHS 1
+   18    24     1     ; |C5     C8     |CEL1     CRL1        |CHS 1
+   18    44     1     ; |C5     C11    |CEL1     CRL2        |CHS 1
+   18    48     1     ; |C5     H9     |CEL1     HGA1        |CHS 1
+   18    51     1     ; |C5     H19A   |CEL1     HAL3        |CHS 1
+   18    52     1     ; |C5     H19B   |CEL1     HAL3        |CHS 1
+   18    53     1     ; |C5     H19C   |CEL1     HAL3        |CHS 1
+   18    55     1     ; |C5     H1A    |CEL1     HGA2        |CHS 1
+   18    56     1     ; |C5     H1B    |CEL1     HGA2        |CHS 1
+   18    57     1     ; |C5     C2     |CEL1     CRL2        |CHS 1
+   19    25     1     ; |C6     H8     |CEL1     HGA1        |CHS 1
+   19    26     1     ; |C6     C14    |CEL1     CRL1        |CHS 1
+   19    47     1     ; |C6     C9     |CEL1     CRL1        |CHS 1
+   19    50     1     ; |C6     C19    |CEL1     CTL3        |CHS 1
+   19    54     1     ; |C6     C1     |CEL1     CRL2        |CHS 1
+   20    22     1     ; |H6     H7A    |HEL1     HGA2        |CHS 1
+   20    23     1     ; |H6     H7B    |HEL1     HGA2        |CHS 1
+   20    24     1     ; |H6     C8     |HEL1     CRL1        |CHS 1
+   20    49     1     ; |H6     C10    |HEL1     CRL1        |CHS 1
+   21    27     1     ; |C7     H14    |CRL2     HGA1        |CHS 1
+   21    28     1     ; |C7     C15    |CRL2     CRL2        |CHS 1
+   21    36     1     ; |C7     C13    |CRL2     CRL1        |CHS 1
+   21    44     1     ; |C7     C11    |CRL2     CRL2        |CHS 1
+   21    48     1     ; |C7     H9     |CRL2     HGA1        |CHS 1
+   21    49     1     ; |C7     C10    |CRL2     CRL1        |CHS 1
+   22    25     1     ; |H7A    H8     |HGA2     HGA1        |CHS 1
+   22    26     1     ; |H7A    C14    |HGA2     CRL1        |CHS 1
+   22    47     1     ; |H7A    C9     |HGA2     CRL1        |CHS 1
+   23    25     1     ; |H7B    H8     |HGA2     HGA1        |CHS 1
+   23    26     1     ; |H7B    C14    |HGA2     CRL1        |CHS 1
+   23    47     1     ; |H7B    C9     |HGA2     CRL1        |CHS 1
+   24    29     1     ; |C8     H15A   |CRL1     HGA2        |CHS 1
+   24    30     1     ; |C8     H15B   |CRL1     HGA2        |CHS 1
+   24    31     1     ; |C8     C16    |CRL1     CRL2        |CHS 1
+   24    34     1     ; |C8     C17    |CRL1     CRL1        |CHS 1
+   24    37     1     ; |C8     C18    |CRL1     CTL3        |CHS 1
+   24    41     1     ; |C8     C12    |CRL1     CRL2        |CHS 1
+   24    45     1     ; |C8     H11A   |CRL1     HGA2        |CHS 1
+   24    46     1     ; |C8     H11B   |CRL1     HGA2        |CHS 1
+   24    50     1     ; |C8     C19    |CRL1     CTL3        |CHS 1
+   24    54     1     ; |C8     C1     |CRL1     CRL2        |CHS 1
+   25    27     1     ; |H8     H14    |HGA1     HGA1        |CHS 1
+   25    28     1     ; |H8     C15    |HGA1     CRL2        |CHS 1
+   25    36     1     ; |H8     C13    |HGA1     CRL1        |CHS 1
+   25    44     1     ; |H8     C11    |HGA1     CRL2        |CHS 1
+   25    48     1     ; |H8     H9     |HGA1     HGA1        |CHS 1
+   25    49     1     ; |H8     C10    |HGA1     CRL1        |CHS 1
+   26    32     1     ; |C14    H16A   |CRL1     HGA2        |CHS 1
+   26    33     1     ; |C14    H16B   |CRL1     HGA2        |CHS 1
+   26    35     1     ; |C14    H17    |CRL1     HGA1        |CHS 1
+   26    38     1     ; |C14    H18A   |CRL1     HAL3        |CHS 1
+   26    39     1     ; |C14    H18B   |CRL1     HAL3        |CHS 1
+   26    40     1     ; |C14    H18C   |CRL1     HAL3        |CHS 1
+   26    42     1     ; |C14    H12A   |CRL1     HGA2        |CHS 1
+   26    43     1     ; |C14    H12B   |CRL1     HGA2        |CHS 1
+   26    44     1     ; |C14    C11    |CRL1     CRL2        |CHS 1
+   26    48     1     ; |C14    H9     |CRL1     HGA1        |CHS 1
+   26    49     1     ; |C14    C10    |CRL1     CRL1        |CHS 1
+   26    60     1     ; |C14    C20    |CRL1     CTL1        |CHS 1
+   27    29     1     ; |H14    H15A   |HGA1     HGA2        |CHS 1
+   27    30     1     ; |H14    H15B   |HGA1     HGA2        |CHS 1
+   27    31     1     ; |H14    C16    |HGA1     CRL2        |CHS 1
+   27    34     1     ; |H14    C17    |HGA1     CRL1        |CHS 1
+   27    37     1     ; |H14    C18    |HGA1     CTL3        |CHS 1
+   27    41     1     ; |H14    C12    |HGA1     CRL2        |CHS 1
+   27    47     1     ; |H14    C9     |HGA1     CRL1        |CHS 1
+   28    35     1     ; |C15    H17    |CRL2     HGA1        |CHS 1
+   28    37     1     ; |C15    C18    |CRL2     CTL3        |CHS 1
+   28    41     1     ; |C15    C12    |CRL2     CRL2        |CHS 1
+   28    47     1     ; |C15    C9     |CRL2     CRL1        |CHS 1
+   28    60     1     ; |C15    C20    |CRL2     CTL1        |CHS 1
+   29    32     1     ; |H15A   H16A   |HGA2     HGA2        |CHS 1
+   29    33     1     ; |H15A   H16B   |HGA2     HGA2        |CHS 1
+   29    34     1     ; |H15A   C17    |HGA2     CRL1        |CHS 1
+   29    36     1     ; |H15A   C13    |HGA2     CRL1        |CHS 1
+   30    32     1     ; |H15B   H16A   |HGA2     HGA2        |CHS 1
+   30    33     1     ; |H15B   H16B   |HGA2     HGA2        |CHS 1
+   30    34     1     ; |H15B   C17    |HGA2     CRL1        |CHS 1
+   30    36     1     ; |H15B   C13    |HGA2     CRL1        |CHS 1
+   31    37     1     ; |C16    C18    |CRL2     CTL3        |CHS 1
+   31    41     1     ; |C16    C12    |CRL2     CRL2        |CHS 1
+   31    61     1     ; |C16    H20    |CRL2     HAL1        |CHS 1
+   31    62     1     ; |C16    C21    |CRL2     CTL3        |CHS 1
+   31    66     1     ; |C16    C22    |CRL2     CTL2        |CHS 1
+   32    35     1     ; |H16A   H17    |HGA2     HGA1        |CHS 1
+   32    36     1     ; |H16A   C13    |HGA2     CRL1        |CHS 1
+   32    60     1     ; |H16A   C20    |HGA2     CTL1        |CHS 1
+   33    35     1     ; |H16B   H17    |HGA2     HGA1        |CHS 1
+   33    36     1     ; |H16B   C13    |HGA2     CRL1        |CHS 1
+   33    60     1     ; |H16B   C20    |HGA2     CTL1        |CHS 1
+   34    38     1     ; |C17    H18A   |CRL1     HAL3        |CHS 1
+   34    39     1     ; |C17    H18B   |CRL1     HAL3        |CHS 1
+   34    40     1     ; |C17    H18C   |CRL1     HAL3        |CHS 1
+   34    42     1     ; |C17    H12A   |CRL1     HGA2        |CHS 1
+   34    43     1     ; |C17    H12B   |CRL1     HGA2        |CHS 1
+   34    44     1     ; |C17    C11    |CRL1     CRL2        |CHS 1
+   34    63     1     ; |C17    H21A   |CRL1     HAL3        |CHS 1
+   34    64     1     ; |C17    H21B   |CRL1     HAL3        |CHS 1
+   34    65     1     ; |C17    H21C   |CRL1     HAL3        |CHS 1
+   34    67     1     ; |C17    H22A   |CRL1     HAL2        |CHS 1
+   34    68     1     ; |C17    H22B   |CRL1     HAL2        |CHS 1
+   34    69     1     ; |C17    C23    |CRL1     CTL2        |CHS 1
+   35    37     1     ; |H17    C18    |HGA1     CTL3        |CHS 1
+   35    41     1     ; |H17    C12    |HGA1     CRL2        |CHS 1
+   35    61     1     ; |H17    H20    |HGA1     HAL1        |CHS 1
+   35    62     1     ; |H17    C21    |HGA1     CTL3        |CHS 1
+   35    66     1     ; |H17    C22    |HGA1     CTL2        |CHS 1
+   36    45     1     ; |C13    H11A   |CRL1     HGA2        |CHS 1
+   36    46     1     ; |C13    H11B   |CRL1     HGA2        |CHS 1
+   36    47     1     ; |C13    C9     |CRL1     CRL1        |CHS 1
+   36    61     1     ; |C13    H20    |CRL1     HAL1        |CHS 1
+   36    62     1     ; |C13    C21    |CRL1     CTL3        |CHS 1
+   36    66     1     ; |C13    C22    |CRL1     CTL2        |CHS 1
+   37    42     1     ; |C18    H12A   |CTL3     HGA2        |CHS 1
+   37    43     1     ; |C18    H12B   |CTL3     HGA2        |CHS 1
+   37    44     1     ; |C18    C11    |CTL3     CRL2        |CHS 1
+   37    60     1     ; |C18    C20    |CTL3     CTL1        |CHS 1
+   38    41     1     ; |H18A   C12    |HAL3     CRL2        |CHS 1
+   39    41     1     ; |H18B   C12    |HAL3     CRL2        |CHS 1
+   40    41     1     ; |H18C   C12    |HAL3     CRL2        |CHS 1
+   41    48     1     ; |C12    H9     |CRL2     HGA1        |CHS 1
+   41    49     1     ; |C12    C10    |CRL2     CRL1        |CHS 1
+   41    60     1     ; |C12    C20    |CRL2     CTL1        |CHS 1
+   42    45     1     ; |H12A   H11A   |HGA2     HGA2        |CHS 1
+   42    46     1     ; |H12A   H11B   |HGA2     HGA2        |CHS 1
+   42    47     1     ; |H12A   C9     |HGA2     CRL1        |CHS 1
+   43    45     1     ; |H12B   H11A   |HGA2     HGA2        |CHS 1
+   43    46     1     ; |H12B   H11B   |HGA2     HGA2        |CHS 1
+   43    47     1     ; |H12B   C9     |HGA2     CRL1        |CHS 1
+   44    50     1     ; |C11    C19    |CRL2     CTL3        |CHS 1
+   44    54     1     ; |C11    C1     |CRL2     CRL2        |CHS 1
+   45    48     1     ; |H11A   H9     |HGA2     HGA1        |CHS 1
+   45    49     1     ; |H11A   C10    |HGA2     CRL1        |CHS 1
+   46    48     1     ; |H11B   H9     |HGA2     HGA1        |CHS 1
+   46    49     1     ; |H11B   C10    |HGA2     CRL1        |CHS 1
+   47    51     1     ; |C9     H19A   |CRL1     HAL3        |CHS 1
+   47    52     1     ; |C9     H19B   |CRL1     HAL3        |CHS 1
+   47    53     1     ; |C9     H19C   |CRL1     HAL3        |CHS 1
+   47    55     1     ; |C9     H1A    |CRL1     HGA2        |CHS 1
+   47    56     1     ; |C9     H1B    |CRL1     HGA2        |CHS 1
+   47    57     1     ; |C9     C2     |CRL1     CRL2        |CHS 1
+   48    50     1     ; |H9     C19    |HGA1     CTL3        |CHS 1
+   48    54     1     ; |H9     C1     |HGA1     CRL2        |CHS 1
+   49    58     1     ; |C10    H2A    |CRL1     HGA2        |CHS 1
+   49    59     1     ; |C10    H2B    |CRL1     HGA2        |CHS 1
+   50    55     1     ; |C19    H1A    |CTL3     HGA2        |CHS 1
+   50    56     1     ; |C19    H1B    |CTL3     HGA2        |CHS 1
+   50    57     1     ; |C19    C2     |CTL3     CRL2        |CHS 1
+   51    54     1     ; |H19A   C1     |HAL3     CRL2        |CHS 1
+   52    54     1     ; |H19B   C1     |HAL3     CRL2        |CHS 1
+   53    54     1     ; |H19C   C1     |HAL3     CRL2        |CHS 1
+   55    58     1     ; |H1A    H2A    |HGA2     HGA2        |CHS 1
+   55    59     1     ; |H1A    H2B    |HGA2     HGA2        |CHS 1
+   56    58     1     ; |H1B    H2A    |HGA2     HGA2        |CHS 1
+   56    59     1     ; |H1B    H2B    |HGA2     HGA2        |CHS 1
+   60    70     1     ; |C20    H23A   |CTL1     HAL2        |CHS 1
+   60    71     1     ; |C20    H23B   |CTL1     HAL2        |CHS 1
+   60    72     1     ; |C20    C24    |CTL1     CTL2        |CHS 1
+   61    63     1     ; |H20    H21A   |HAL1     HAL3        |CHS 1
+   61    64     1     ; |H20    H21B   |HAL1     HAL3        |CHS 1
+   61    65     1     ; |H20    H21C   |HAL1     HAL3        |CHS 1
+   61    67     1     ; |H20    H22A   |HAL1     HAL2        |CHS 1
+   61    68     1     ; |H20    H22B   |HAL1     HAL2        |CHS 1
+   61    69     1     ; |H20    C23    |HAL1     CTL2        |CHS 1
+   62    67     1     ; |C21    H22A   |CTL3     HAL2        |CHS 1
+   62    68     1     ; |C21    H22B   |CTL3     HAL2        |CHS 1
+   62    69     1     ; |C21    C23    |CTL3     CTL2        |CHS 1
+   63    66     1     ; |H21A   C22    |HAL3     CTL2        |CHS 1
+   64    66     1     ; |H21B   C22    |HAL3     CTL2        |CHS 1
+   65    66     1     ; |H21C   C22    |HAL3     CTL2        |CHS 1
+   66    73     1     ; |C22    H24A   |CTL2     HAL2        |CHS 1
+   66    74     1     ; |C22    H24B   |CTL2     HAL2        |CHS 1
+   66    75     1     ; |C22    C25    |CTL2     CTL1        |CHS 1
+   67    70     1     ; |H22A   H23A   |HAL2     HAL2        |CHS 1
+   67    71     1     ; |H22A   H23B   |HAL2     HAL2        |CHS 1
+   67    72     1     ; |H22A   C24    |HAL2     CTL2        |CHS 1
+   68    70     1     ; |H22B   H23A   |HAL2     HAL2        |CHS 1
+   68    71     1     ; |H22B   H23B   |HAL2     HAL2        |CHS 1
+   68    72     1     ; |H22B   C24    |HAL2     CTL2        |CHS 1
+   69    76     1     ; |C23    H25    |CTL2     HAL1        |CHS 1
+   69    77     1     ; |C23    C26    |CTL2     CTL3        |CHS 1
+   69    81     1     ; |C23    C27    |CTL2     CTL3        |CHS 1
+   70    73     1     ; |H23A   H24A   |HAL2     HAL2        |CHS 1
+   70    74     1     ; |H23A   H24B   |HAL2     HAL2        |CHS 1
+   70    75     1     ; |H23A   C25    |HAL2     CTL1        |CHS 1
+   71    73     1     ; |H23B   H24A   |HAL2     HAL2        |CHS 1
+   71    74     1     ; |H23B   H24B   |HAL2     HAL2        |CHS 1
+   71    75     1     ; |H23B   C25    |HAL2     CTL1        |CHS 1
+   72    78     1     ; |C24    H26A   |CTL2     HAL3        |CHS 1
+   72    79     1     ; |C24    H26B   |CTL2     HAL3        |CHS 1
+   72    80     1     ; |C24    H26C   |CTL2     HAL3        |CHS 1
+   72    82     1     ; |C24    H27A   |CTL2     HAL3        |CHS 1
+   72    83     1     ; |C24    H27B   |CTL2     HAL3        |CHS 1
+   72    84     1     ; |C24    H27C   |CTL2     HAL3        |CHS 1
+   73    76     1     ; |H24A   H25    |HAL2     HAL1        |CHS 1
+   73    77     1     ; |H24A   C26    |HAL2     CTL3        |CHS 1
+   73    81     1     ; |H24A   C27    |HAL2     CTL3        |CHS 1
+   74    76     1     ; |H24B   H25    |HAL2     HAL1        |CHS 1
+   74    77     1     ; |H24B   C26    |HAL2     CTL3        |CHS 1
+   74    81     1     ; |H24B   C27    |HAL2     CTL3        |CHS 1
+   76    78     1     ; |H25    H26A   |HAL1     HAL3        |CHS 1
+   76    79     1     ; |H25    H26B   |HAL1     HAL3        |CHS 1
+   76    80     1     ; |H25    H26C   |HAL1     HAL3        |CHS 1
+   76    82     1     ; |H25    H27A   |HAL1     HAL3        |CHS 1
+   76    83     1     ; |H25    H27B   |HAL1     HAL3        |CHS 1
+   76    84     1     ; |H25    H27C   |HAL1     HAL3        |CHS 1
+   77    82     1     ; |C26    H27A   |CTL3     HAL3        |CHS 1
+   77    83     1     ; |C26    H27B   |CTL3     HAL3        |CHS 1
+   77    84     1     ; |C26    H27C   |CTL3     HAL3        |CHS 1
+   78    81     1     ; |H26A   C27    |HAL3     CTL3        |CHS 1
+   79    81     1     ; |H26B   C27    |HAL3     CTL3        |CHS 1
+   80    81     1     ; |H26C   C27    |HAL3     CTL3        |CHS 1
+[ angles ]
+;  ai    aj    ak funct
+    2     1    13     5     ; |C4'    O3     C3     |CL       OSL      CRL1        |CHS 1
+    1     2     3     5     ; |O3     C4'    O2'    |OSL      CL       OBL         |CHS 1
+    1     2     4     5     ; |O3     C4'    C5'    |OSL      CL       CTL2        |CHS 1
+    3     2     4     5     ; |O2'    C4'    C5'    |OBL      CL       CTL2        |CHS 1
+    2     4     5     5     ; |C4'    C5'    H5A'   |CL       CTL2     HAL2        |CHS 1
+    2     4     6     5     ; |C4'    C5'    H5B'   |CL       CTL2     HAL2        |CHS 1
+    2     4     7     5     ; |C4'    C5'    C6'    |CL       CTL2     CTL2        |CHS 1
+    5     4     6     5     ; |H5A'   C5'    H5B'   |HAL2     CTL2     HAL2        |CHS 1
+    5     4     7     5     ; |H5A'   C5'    C6'    |HAL2     CTL2     CTL2        |CHS 1
+    6     4     7     5     ; |H5B'   C5'    C6'    |HAL2     CTL2     CTL2        |CHS 1
+    4     7     8     5     ; |C5'    C6'    H6A'   |CTL2     CTL2     HAL2        |CHS 1
+    4     7     9     5     ; |C5'    C6'    H6B'   |CTL2     CTL2     HAL2        |CHS 1
+    4     7    10     5     ; |C5'    C6'    C7'    |CTL2     CTL2     CL          |CHS 1
+    8     7     9     5     ; |H6A'   C6'    H6B'   |HAL2     CTL2     HAL2        |CHS 1
+    8     7    10     5     ; |H6A'   C6'    C7'    |HAL2     CTL2     CL          |CHS 1
+    9     7    10     5     ; |H6B'   C6'    C7'    |HAL2     CTL2     CL          |CHS 1
+    7    10    11     5     ; |C6'    C7'    O3'    |CTL2     CL       OCL         |CHS 1
+    7    10    12     5     ; |C6'    C7'    O4'    |CTL2     CL       OCL         |CHS 1
+   11    10    12     5     ; |O3'    C7'    O4'    |OCL      CL       OCL         |CHS 1
+    1    13    14     5     ; |O3     C3     H3     |OSL      CRL1     HGA1        |CHS 1
+    1    13    15     5     ; |O3     C3     C4     |OSL      CRL1     CRL2        |CHS 1
+    1    13    57     5     ; |O3     C3     C2     |OSL      CRL1     CRL2        |CHS 1
+   14    13    15     5     ; |H3     C3     C4     |HGA1     CRL1     CRL2        |CHS 1
+   14    13    57     5     ; |H3     C3     C2     |HGA1     CRL1     CRL2        |CHS 1
+   15    13    57     5     ; |C4     C3     C2     |CRL2     CRL1     CRL2        |CHS 1
+   13    15    16     5     ; |C3     C4     H4A    |CRL1     CRL2     HGA2        |CHS 1
+   13    15    17     5     ; |C3     C4     H4B    |CRL1     CRL2     HGA2        |CHS 1
+   13    15    18     5     ; |C3     C4     C5     |CRL1     CRL2     CEL1        |CHS 1
+   16    15    17     5     ; |H4A    C4     H4B    |HGA2     CRL2     HGA2        |CHS 1
+   16    15    18     5     ; |H4A    C4     C5     |HGA2     CRL2     CEL1        |CHS 1
+   17    15    18     5     ; |H4B    C4     C5     |HGA2     CRL2     CEL1        |CHS 1
+   15    18    19     5     ; |C4     C5     C6     |CRL2     CEL1     CEL1        |CHS 1
+   15    18    49     5     ; |C4     C5     C10    |CRL2     CEL1     CRL1        |CHS 1
+   19    18    49     5     ; |C6     C5     C10    |CEL1     CEL1     CRL1        |CHS 1
+   18    19    20     5     ; |C5     C6     H6     |CEL1     CEL1     HEL1        |CHS 1
+   18    19    21     5     ; |C5     C6     C7     |CEL1     CEL1     CRL2        |CHS 1
+   20    19    21     5     ; |H6     C6     C7     |HEL1     CEL1     CRL2        |CHS 1
+   19    21    22     5     ; |C6     C7     H7A    |CEL1     CRL2     HGA2        |CHS 1
+   19    21    23     5     ; |C6     C7     H7B    |CEL1     CRL2     HGA2        |CHS 1
+   19    21    24     5     ; |C6     C7     C8     |CEL1     CRL2     CRL1        |CHS 1
+   22    21    23     5     ; |H7A    C7     H7B    |HGA2     CRL2     HGA2        |CHS 1
+   22    21    24     5     ; |H7A    C7     C8     |HGA2     CRL2     CRL1        |CHS 1
+   23    21    24     5     ; |H7B    C7     C8     |HGA2     CRL2     CRL1        |CHS 1
+   21    24    25     5     ; |C7     C8     H8     |CRL2     CRL1     HGA1        |CHS 1
+   21    24    26     5     ; |C7     C8     C14    |CRL2     CRL1     CRL1        |CHS 1
+   21    24    47     5     ; |C7     C8     C9     |CRL2     CRL1     CRL1        |CHS 1
+   25    24    26     5     ; |H8     C8     C14    |HGA1     CRL1     CRL1        |CHS 1
+   25    24    47     5     ; |H8     C8     C9     |HGA1     CRL1     CRL1        |CHS 1
+   26    24    47     5     ; |C14    C8     C9     |CRL1     CRL1     CRL1        |CHS 1
+   24    26    27     5     ; |C8     C14    H14    |CRL1     CRL1     HGA1        |CHS 1
+   24    26    28     5     ; |C8     C14    C15    |CRL1     CRL1     CRL2        |CHS 1
+   24    26    36     5     ; |C8     C14    C13    |CRL1     CRL1     CRL1        |CHS 1
+   27    26    28     5     ; |H14    C14    C15    |HGA1     CRL1     CRL2        |CHS 1
+   27    26    36     5     ; |H14    C14    C13    |HGA1     CRL1     CRL1        |CHS 1
+   28    26    36     5     ; |C15    C14    C13    |CRL2     CRL1     CRL1        |CHS 1
+   26    28    29     5     ; |C14    C15    H15A   |CRL1     CRL2     HGA2        |CHS 1
+   26    28    30     5     ; |C14    C15    H15B   |CRL1     CRL2     HGA2        |CHS 1
+   26    28    31     5     ; |C14    C15    C16    |CRL1     CRL2     CRL2        |CHS 1
+   29    28    30     5     ; |H15A   C15    H15B   |HGA2     CRL2     HGA2        |CHS 1
+   29    28    31     5     ; |H15A   C15    C16    |HGA2     CRL2     CRL2        |CHS 1
+   30    28    31     5     ; |H15B   C15    C16    |HGA2     CRL2     CRL2        |CHS 1
+   28    31    32     5     ; |C15    C16    H16A   |CRL2     CRL2     HGA2        |CHS 1
+   28    31    33     5     ; |C15    C16    H16B   |CRL2     CRL2     HGA2        |CHS 1
+   28    31    34     5     ; |C15    C16    C17    |CRL2     CRL2     CRL1        |CHS 1
+   32    31    33     5     ; |H16A   C16    H16B   |HGA2     CRL2     HGA2        |CHS 1
+   32    31    34     5     ; |H16A   C16    C17    |HGA2     CRL2     CRL1        |CHS 1
+   33    31    34     5     ; |H16B   C16    C17    |HGA2     CRL2     CRL1        |CHS 1
+   31    34    35     5     ; |C16    C17    H17    |CRL2     CRL1     HGA1        |CHS 1
+   31    34    36     5     ; |C16    C17    C13    |CRL2     CRL1     CRL1        |CHS 1
+   31    34    60     5     ; |C16    C17    C20    |CRL2     CRL1     CTL1        |CHS 1
+   35    34    36     5     ; |H17    C17    C13    |HGA1     CRL1     CRL1        |CHS 1
+   35    34    60     5     ; |H17    C17    C20    |HGA1     CRL1     CTL1        |CHS 1
+   36    34    60     5     ; |C13    C17    C20    |CRL1     CRL1     CTL1        |CHS 1
+   26    36    34     5     ; |C14    C13    C17    |CRL1     CRL1     CRL1        |CHS 1
+   26    36    37     5     ; |C14    C13    C18    |CRL1     CRL1     CTL3        |CHS 1
+   26    36    41     5     ; |C14    C13    C12    |CRL1     CRL1     CRL2        |CHS 1
+   34    36    37     5     ; |C17    C13    C18    |CRL1     CRL1     CTL3        |CHS 1
+   34    36    41     5     ; |C17    C13    C12    |CRL1     CRL1     CRL2        |CHS 1
+   37    36    41     5     ; |C18    C13    C12    |CTL3     CRL1     CRL2        |CHS 1
+   36    37    38     5     ; |C13    C18    H18A   |CRL1     CTL3     HAL3        |CHS 1
+   36    37    39     5     ; |C13    C18    H18B   |CRL1     CTL3     HAL3        |CHS 1
+   36    37    40     5     ; |C13    C18    H18C   |CRL1     CTL3     HAL3        |CHS 1
+   38    37    39     5     ; |H18A   C18    H18B   |HAL3     CTL3     HAL3        |CHS 1
+   38    37    40     5     ; |H18A   C18    H18C   |HAL3     CTL3     HAL3        |CHS 1
+   39    37    40     5     ; |H18B   C18    H18C   |HAL3     CTL3     HAL3        |CHS 1
+   36    41    42     5     ; |C13    C12    H12A   |CRL1     CRL2     HGA2        |CHS 1
+   36    41    43     5     ; |C13    C12    H12B   |CRL1     CRL2     HGA2        |CHS 1
+   36    41    44     5     ; |C13    C12    C11    |CRL1     CRL2     CRL2        |CHS 1
+   42    41    43     5     ; |H12A   C12    H12B   |HGA2     CRL2     HGA2        |CHS 1
+   42    41    44     5     ; |H12A   C12    C11    |HGA2     CRL2     CRL2        |CHS 1
+   43    41    44     5     ; |H12B   C12    C11    |HGA2     CRL2     CRL2        |CHS 1
+   41    44    45     5     ; |C12    C11    H11A   |CRL2     CRL2     HGA2        |CHS 1
+   41    44    46     5     ; |C12    C11    H11B   |CRL2     CRL2     HGA2        |CHS 1
+   41    44    47     5     ; |C12    C11    C9     |CRL2     CRL2     CRL1        |CHS 1
+   45    44    46     5     ; |H11A   C11    H11B   |HGA2     CRL2     HGA2        |CHS 1
+   45    44    47     5     ; |H11A   C11    C9     |HGA2     CRL2     CRL1        |CHS 1
+   46    44    47     5     ; |H11B   C11    C9     |HGA2     CRL2     CRL1        |CHS 1
+   24    47    44     5     ; |C8     C9     C11    |CRL1     CRL1     CRL2        |CHS 1
+   24    47    48     5     ; |C8     C9     H9     |CRL1     CRL1     HGA1        |CHS 1
+   24    47    49     5     ; |C8     C9     C10    |CRL1     CRL1     CRL1        |CHS 1
+   44    47    48     5     ; |C11    C9     H9     |CRL2     CRL1     HGA1        |CHS 1
+   44    47    49     5     ; |C11    C9     C10    |CRL2     CRL1     CRL1        |CHS 1
+   48    47    49     5     ; |H9     C9     C10    |HGA1     CRL1     CRL1        |CHS 1
+   18    49    47     5     ; |C5     C10    C9     |CEL1     CRL1     CRL1        |CHS 1
+   18    49    50     5     ; |C5     C10    C19    |CEL1     CRL1     CTL3        |CHS 1
+   18    49    54     5     ; |C5     C10    C1     |CEL1     CRL1     CRL2        |CHS 1
+   47    49    50     5     ; |C9     C10    C19    |CRL1     CRL1     CTL3        |CHS 1
+   47    49    54     5     ; |C9     C10    C1     |CRL1     CRL1     CRL2        |CHS 1
+   50    49    54     5     ; |C19    C10    C1     |CTL3     CRL1     CRL2        |CHS 1
+   49    50    51     5     ; |C10    C19    H19A   |CRL1     CTL3     HAL3        |CHS 1
+   49    50    52     5     ; |C10    C19    H19B   |CRL1     CTL3     HAL3        |CHS 1
+   49    50    53     5     ; |C10    C19    H19C   |CRL1     CTL3     HAL3        |CHS 1
+   51    50    52     5     ; |H19A   C19    H19B   |HAL3     CTL3     HAL3        |CHS 1
+   51    50    53     5     ; |H19A   C19    H19C   |HAL3     CTL3     HAL3        |CHS 1
+   52    50    53     5     ; |H19B   C19    H19C   |HAL3     CTL3     HAL3        |CHS 1
+   49    54    55     5     ; |C10    C1     H1A    |CRL1     CRL2     HGA2        |CHS 1
+   49    54    56     5     ; |C10    C1     H1B    |CRL1     CRL2     HGA2        |CHS 1
+   49    54    57     5     ; |C10    C1     C2     |CRL1     CRL2     CRL2        |CHS 1
+   55    54    56     5     ; |H1A    C1     H1B    |HGA2     CRL2     HGA2        |CHS 1
+   55    54    57     5     ; |H1A    C1     C2     |HGA2     CRL2     CRL2        |CHS 1
+   56    54    57     5     ; |H1B    C1     C2     |HGA2     CRL2     CRL2        |CHS 1
+   13    57    54     5     ; |C3     C2     C1     |CRL1     CRL2     CRL2        |CHS 1
+   13    57    58     5     ; |C3     C2     H2A    |CRL1     CRL2     HGA2        |CHS 1
+   13    57    59     5     ; |C3     C2     H2B    |CRL1     CRL2     HGA2        |CHS 1
+   54    57    58     5     ; |C1     C2     H2A    |CRL2     CRL2     HGA2        |CHS 1
+   54    57    59     5     ; |C1     C2     H2B    |CRL2     CRL2     HGA2        |CHS 1
+   58    57    59     5     ; |H2A    C2     H2B    |HGA2     CRL2     HGA2        |CHS 1
+   34    60    61     5     ; |C17    C20    H20    |CRL1     CTL1     HAL1        |CHS 1
+   34    60    62     5     ; |C17    C20    C21    |CRL1     CTL1     CTL3        |CHS 1
+   34    60    66     5     ; |C17    C20    C22    |CRL1     CTL1     CTL2        |CHS 1
+   61    60    62     5     ; |H20    C20    C21    |HAL1     CTL1     CTL3        |CHS 1
+   61    60    66     5     ; |H20    C20    C22    |HAL1     CTL1     CTL2        |CHS 1
+   62    60    66     5     ; |C21    C20    C22    |CTL3     CTL1     CTL2        |CHS 1
+   60    62    63     5     ; |C20    C21    H21A   |CTL1     CTL3     HAL3        |CHS 1
+   60    62    64     5     ; |C20    C21    H21B   |CTL1     CTL3     HAL3        |CHS 1
+   60    62    65     5     ; |C20    C21    H21C   |CTL1     CTL3     HAL3        |CHS 1
+   63    62    64     5     ; |H21A   C21    H21B   |HAL3     CTL3     HAL3        |CHS 1
+   63    62    65     5     ; |H21A   C21    H21C   |HAL3     CTL3     HAL3        |CHS 1
+   64    62    65     5     ; |H21B   C21    H21C   |HAL3     CTL3     HAL3        |CHS 1
+   60    66    67     5     ; |C20    C22    H22A   |CTL1     CTL2     HAL2        |CHS 1
+   60    66    68     5     ; |C20    C22    H22B   |CTL1     CTL2     HAL2        |CHS 1
+   60    66    69     5     ; |C20    C22    C23    |CTL1     CTL2     CTL2        |CHS 1
+   67    66    68     5     ; |H22A   C22    H22B   |HAL2     CTL2     HAL2        |CHS 1
+   67    66    69     5     ; |H22A   C22    C23    |HAL2     CTL2     CTL2        |CHS 1
+   68    66    69     5     ; |H22B   C22    C23    |HAL2     CTL2     CTL2        |CHS 1
+   66    69    70     5     ; |C22    C23    H23A   |CTL2     CTL2     HAL2        |CHS 1
+   66    69    71     5     ; |C22    C23    H23B   |CTL2     CTL2     HAL2        |CHS 1
+   66    69    72     5     ; |C22    C23    C24    |CTL2     CTL2     CTL2        |CHS 1
+   70    69    71     5     ; |H23A   C23    H23B   |HAL2     CTL2     HAL2        |CHS 1
+   70    69    72     5     ; |H23A   C23    C24    |HAL2     CTL2     CTL2        |CHS 1
+   71    69    72     5     ; |H23B   C23    C24    |HAL2     CTL2     CTL2        |CHS 1
+   69    72    73     5     ; |C23    C24    H24A   |CTL2     CTL2     HAL2        |CHS 1
+   69    72    74     5     ; |C23    C24    H24B   |CTL2     CTL2     HAL2        |CHS 1
+   69    72    75     5     ; |C23    C24    C25    |CTL2     CTL2     CTL1        |CHS 1
+   73    72    74     5     ; |H24A   C24    H24B   |HAL2     CTL2     HAL2        |CHS 1
+   73    72    75     5     ; |H24A   C24    C25    |HAL2     CTL2     CTL1        |CHS 1
+   74    72    75     5     ; |H24B   C24    C25    |HAL2     CTL2     CTL1        |CHS 1
+   72    75    76     5     ; |C24    C25    H25    |CTL2     CTL1     HAL1        |CHS 1
+   72    75    77     5     ; |C24    C25    C26    |CTL2     CTL1     CTL3        |CHS 1
+   72    75    81     5     ; |C24    C25    C27    |CTL2     CTL1     CTL3        |CHS 1
+   76    75    77     5     ; |H25    C25    C26    |HAL1     CTL1     CTL3        |CHS 1
+   76    75    81     5     ; |H25    C25    C27    |HAL1     CTL1     CTL3        |CHS 1
+   77    75    81     5     ; |C26    C25    C27    |CTL3     CTL1     CTL3        |CHS 1
+   75    77    78     5     ; |C25    C26    H26A   |CTL1     CTL3     HAL3        |CHS 1
+   75    77    79     5     ; |C25    C26    H26B   |CTL1     CTL3     HAL3        |CHS 1
+   75    77    80     5     ; |C25    C26    H26C   |CTL1     CTL3     HAL3        |CHS 1
+   78    77    79     5     ; |H26A   C26    H26B   |HAL3     CTL3     HAL3        |CHS 1
+   78    77    80     5     ; |H26A   C26    H26C   |HAL3     CTL3     HAL3        |CHS 1
+   79    77    80     5     ; |H26B   C26    H26C   |HAL3     CTL3     HAL3        |CHS 1
+   75    81    82     5     ; |C25    C27    H27A   |CTL1     CTL3     HAL3        |CHS 1
+   75    81    83     5     ; |C25    C27    H27B   |CTL1     CTL3     HAL3        |CHS 1
+   75    81    84     5     ; |C25    C27    H27C   |CTL1     CTL3     HAL3        |CHS 1
+   82    81    83     5     ; |H27A   C27    H27B   |HAL3     CTL3     HAL3        |CHS 1
+   82    81    84     5     ; |H27A   C27    H27C   |HAL3     CTL3     HAL3        |CHS 1
+   83    81    84     5     ; |H27B   C27    H27C   |HAL3     CTL3     HAL3        |CHS 1
+[ dihedrals ]
+;  ai    aj    ak    al funct   phi0     cp     mult
+   13     1     2     3     9     ; |C3     O3     C4'    O2'    |CRL1     OSL      CL       OBL         |CHS 1
+   13     1     2     4     9     ; |C3     O3     C4'    C5'    |CRL1     OSL      CL       CTL2        |CHS 1
+    2     1    13    14     9     ; |C4'    O3     C3     H3     |CL       OSL      CRL1     HGA1        |CHS 1
+    2     1    13    15     9     ; |C4'    O3     C3     C4     |CL       OSL      CRL1     CRL2        |CHS 1
+    2     1    13    57     9     ; |C4'    O3     C3     C2     |CL       OSL      CRL1     CRL2        |CHS 1
+    1     2     4     5     9     ; |O3     C4'    C5'    H5A'   |OSL      CL       CTL2     HAL2        |CHS 1
+    1     2     4     6     9     ; |O3     C4'    C5'    H5B'   |OSL      CL       CTL2     HAL2        |CHS 1
+    1     2     4     7     9     ; |O3     C4'    C5'    C6'    |OSL      CL       CTL2     CTL2        |CHS 1
+    3     2     4     5     9     ; |O2'    C4'    C5'    H5A'   |OBL      CL       CTL2     HAL2        |CHS 1
+    3     2     4     6     9     ; |O2'    C4'    C5'    H5B'   |OBL      CL       CTL2     HAL2        |CHS 1
+    3     2     4     7     9     ; |O2'    C4'    C5'    C6'    |OBL      CL       CTL2     CTL2        |CHS 1
+    2     4     7     8     9     ; |C4'    C5'    C6'    H6A'   |CL       CTL2     CTL2     HAL2        |CHS 1
+    2     4     7     9     9     ; |C4'    C5'    C6'    H6B'   |CL       CTL2     CTL2     HAL2        |CHS 1
+    2     4     7    10     9     ; |C4'    C5'    C6'    C7'    |CL       CTL2     CTL2     CL          |CHS 1
+    5     4     7     8     9     ; |H5A'   C5'    C6'    H6A'   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+    5     4     7     9     9     ; |H5A'   C5'    C6'    H6B'   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+    5     4     7    10     9     ; |H5A'   C5'    C6'    C7'    |HAL2     CTL2     CTL2     CL          |CHS 1
+    6     4     7     8     9     ; |H5B'   C5'    C6'    H6A'   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+    6     4     7     9     9     ; |H5B'   C5'    C6'    H6B'   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+    6     4     7    10     9     ; |H5B'   C5'    C6'    C7'    |HAL2     CTL2     CTL2     CL          |CHS 1
+    4     7    10    11     9     ; |C5'    C6'    C7'    O3'    |CTL2     CTL2     CL       OCL         |CHS 1
+    4     7    10    12     9     ; |C5'    C6'    C7'    O4'    |CTL2     CTL2     CL       OCL         |CHS 1
+    8     7    10    11     9     ; |H6A'   C6'    C7'    O3'    |HAL2     CTL2     CL       OCL         |CHS 1
+    8     7    10    12     9     ; |H6A'   C6'    C7'    O4'    |HAL2     CTL2     CL       OCL         |CHS 1
+    9     7    10    11     9     ; |H6B'   C6'    C7'    O3'    |HAL2     CTL2     CL       OCL         |CHS 1
+    9     7    10    12     9     ; |H6B'   C6'    C7'    O4'    |HAL2     CTL2     CL       OCL         |CHS 1
+    1    13    15    16     9     ; |O3     C3     C4     H4A    |OSL      CRL1     CRL2     HGA2        |CHS 1
+    1    13    15    17     9     ; |O3     C3     C4     H4B    |OSL      CRL1     CRL2     HGA2        |CHS 1
+    1    13    15    18     9     ; |O3     C3     C4     C5     |OSL      CRL1     CRL2     CEL1        |CHS 1
+   14    13    15    16     9     ; |H3     C3     C4     H4A    |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   14    13    15    17     9     ; |H3     C3     C4     H4B    |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   14    13    15    18     9     ; |H3     C3     C4     C5     |HGA1     CRL1     CRL2     CEL1        |CHS 1
+   57    13    15    16     9     ; |C2     C3     C4     H4A    |CRL2     CRL1     CRL2     HGA2        |CHS 1
+   57    13    15    17     9     ; |C2     C3     C4     H4B    |CRL2     CRL1     CRL2     HGA2        |CHS 1
+   57    13    15    18     9     ; |C2     C3     C4     C5     |CRL2     CRL1     CRL2     CEL1        |CHS 1
+    1    13    57    54     9     ; |O3     C3     C2     C1     |OSL      CRL1     CRL2     CRL2        |CHS 1
+    1    13    57    58     9     ; |O3     C3     C2     H2A    |OSL      CRL1     CRL2     HGA2        |CHS 1
+    1    13    57    59     9     ; |O3     C3     C2     H2B    |OSL      CRL1     CRL2     HGA2        |CHS 1
+   14    13    57    54     9     ; |H3     C3     C2     C1     |HGA1     CRL1     CRL2     CRL2        |CHS 1
+   14    13    57    58     9     ; |H3     C3     C2     H2A    |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   14    13    57    59     9     ; |H3     C3     C2     H2B    |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   15    13    57    54     9     ; |C4     C3     C2     C1     |CRL2     CRL1     CRL2     CRL2        |CHS 1
+   15    13    57    58     9     ; |C4     C3     C2     H2A    |CRL2     CRL1     CRL2     HGA2        |CHS 1
+   15    13    57    59     9     ; |C4     C3     C2     H2B    |CRL2     CRL1     CRL2     HGA2        |CHS 1
+   13    15    18    19     9     ; |C3     C4     C5     C6     |CRL1     CRL2     CEL1     CEL1        |CHS 1
+   13    15    18    49     9     ; |C3     C4     C5     C10    |CRL1     CRL2     CEL1     CRL1        |CHS 1
+   16    15    18    19     9     ; |H4A    C4     C5     C6     |HGA2     CRL2     CEL1     CEL1        |CHS 1
+   16    15    18    49     9     ; |H4A    C4     C5     C10    |HGA2     CRL2     CEL1     CRL1        |CHS 1
+   17    15    18    19     9     ; |H4B    C4     C5     C6     |HGA2     CRL2     CEL1     CEL1        |CHS 1
+   17    15    18    49     9     ; |H4B    C4     C5     C10    |HGA2     CRL2     CEL1     CRL1        |CHS 1
+   15    18    19    20     9     ; |C4     C5     C6     H6     |CRL2     CEL1     CEL1     HEL1        |CHS 1
+   15    18    19    21     9     ; |C4     C5     C6     C7     |CRL2     CEL1     CEL1     CRL2        |CHS 1
+   49    18    19    20     9     ; |C10    C5     C6     H6     |CRL1     CEL1     CEL1     HEL1        |CHS 1
+   49    18    19    21     9     ; |C10    C5     C6     C7     |CRL1     CEL1     CEL1     CRL2        |CHS 1
+   15    18    49    47     9     ; |C4     C5     C10    C9     |CRL2     CEL1     CRL1     CRL1        |CHS 1
+   15    18    49    50     9     ; |C4     C5     C10    C19    |CRL2     CEL1     CRL1     CTL3        |CHS 1
+   15    18    49    54     9     ; |C4     C5     C10    C1     |CRL2     CEL1     CRL1     CRL2        |CHS 1
+   19    18    49    47     9     ; |C6     C5     C10    C9     |CEL1     CEL1     CRL1     CRL1        |CHS 1
+   19    18    49    50     9     ; |C6     C5     C10    C19    |CEL1     CEL1     CRL1     CTL3        |CHS 1
+   19    18    49    54     9     ; |C6     C5     C10    C1     |CEL1     CEL1     CRL1     CRL2        |CHS 1
+   18    19    21    22     9     ; |C5     C6     C7     H7A    |CEL1     CEL1     CRL2     HGA2        |CHS 1
+   18    19    21    23     9     ; |C5     C6     C7     H7B    |CEL1     CEL1     CRL2     HGA2        |CHS 1
+   18    19    21    24     9     ; |C5     C6     C7     C8     |CEL1     CEL1     CRL2     CRL1        |CHS 1
+   20    19    21    22     9     ; |H6     C6     C7     H7A    |HEL1     CEL1     CRL2     HGA2        |CHS 1
+   20    19    21    23     9     ; |H6     C6     C7     H7B    |HEL1     CEL1     CRL2     HGA2        |CHS 1
+   20    19    21    24     9     ; |H6     C6     C7     C8     |HEL1     CEL1     CRL2     CRL1        |CHS 1
+   19    21    24    25     9     ; |C6     C7     C8     H8     |CEL1     CRL2     CRL1     HGA1        |CHS 1
+   19    21    24    26     9     ; |C6     C7     C8     C14    |CEL1     CRL2     CRL1     CRL1        |CHS 1
+   19    21    24    47     9     ; |C6     C7     C8     C9     |CEL1     CRL2     CRL1     CRL1        |CHS 1
+   22    21    24    25     9     ; |H7A    C7     C8     H8     |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   22    21    24    26     9     ; |H7A    C7     C8     C14    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   22    21    24    47     9     ; |H7A    C7     C8     C9     |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   23    21    24    25     9     ; |H7B    C7     C8     H8     |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   23    21    24    26     9     ; |H7B    C7     C8     C14    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   23    21    24    47     9     ; |H7B    C7     C8     C9     |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   21    24    26    27     9     ; |C7     C8     C14    H14    |CRL2     CRL1     CRL1     HGA1        |CHS 1
+   21    24    26    28     9     ; |C7     C8     C14    C15    |CRL2     CRL1     CRL1     CRL2        |CHS 1
+   21    24    26    36     9     ; |C7     C8     C14    C13    |CRL2     CRL1     CRL1     CRL1        |CHS 1
+   25    24    26    27     9     ; |H8     C8     C14    H14    |HGA1     CRL1     CRL1     HGA1        |CHS 1
+   25    24    26    28     9     ; |H8     C8     C14    C15    |HGA1     CRL1     CRL1     CRL2        |CHS 1
+   25    24    26    36     9     ; |H8     C8     C14    C13    |HGA1     CRL1     CRL1     CRL1        |CHS 1
+   47    24    26    27     9     ; |C9     C8     C14    H14    |CRL1     CRL1     CRL1     HGA1        |CHS 1
+   47    24    26    28     9     ; |C9     C8     C14    C15    |CRL1     CRL1     CRL1     CRL2        |CHS 1
+   47    24    26    36     9     ; |C9     C8     C14    C13    |CRL1     CRL1     CRL1     CRL1        |CHS 1
+   21    24    47    44     9     ; |C7     C8     C9     C11    |CRL2     CRL1     CRL1     CRL2        |CHS 1
+   21    24    47    48     9     ; |C7     C8     C9     H9     |CRL2     CRL1     CRL1     HGA1        |CHS 1
+   21    24    47    49     9     ; |C7     C8     C9     C10    |CRL2     CRL1     CRL1     CRL1        |CHS 1
+   25    24    47    44     9     ; |H8     C8     C9     C11    |HGA1     CRL1     CRL1     CRL2        |CHS 1
+   25    24    47    48     9     ; |H8     C8     C9     H9     |HGA1     CRL1     CRL1     HGA1        |CHS 1
+   25    24    47    49     9     ; |H8     C8     C9     C10    |HGA1     CRL1     CRL1     CRL1        |CHS 1
+   26    24    47    44     9     ; |C14    C8     C9     C11    |CRL1     CRL1     CRL1     CRL2        |CHS 1
+   26    24    47    48     9     ; |C14    C8     C9     H9     |CRL1     CRL1     CRL1     HGA1        |CHS 1
+   26    24    47    49     9     ; |C14    C8     C9     C10    |CRL1     CRL1     CRL1     CRL1        |CHS 1
+   24    26    28    29     9     ; |C8     C14    C15    H15A   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   24    26    28    30     9     ; |C8     C14    C15    H15B   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   24    26    28    31     9     ; |C8     C14    C15    C16    |CRL1     CRL1     CRL2     CRL2        |CHS 1
+   27    26    28    29     9     ; |H14    C14    C15    H15A   |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   27    26    28    30     9     ; |H14    C14    C15    H15B   |HGA1     CRL1     CRL2     HGA2        |CHS 1
+   27    26    28    31     9     ; |H14    C14    C15    C16    |HGA1     CRL1     CRL2     CRL2        |CHS 1
+   36    26    28    29     9     ; |C13    C14    C15    H15A   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   36    26    28    30     9     ; |C13    C14    C15    H15B   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   36    26    28    31     9     ; |C13    C14    C15    C16    |CRL1     CRL1     CRL2     CRL2        |CHS 1
+   24    26    36    34     9     ; |C8     C14    C13    C17    |CRL1     CRL1     CRL1     CRL1        |CHS 1
+   24    26    36    37     9     ; |C8     C14    C13    C18    |CRL1     CRL1     CRL1     CTL3        |CHS 1
+   24    26    36    41     9     ; |C8     C14    C13    C12    |CRL1     CRL1     CRL1     CRL2        |CHS 1
+   27    26    36    34     9     ; |H14    C14    C13    C17    |HGA1     CRL1     CRL1     CRL1        |CHS 1
+   27    26    36    37     9     ; |H14    C14    C13    C18    |HGA1     CRL1     CRL1     CTL3        |CHS 1
+   27    26    36    41     9     ; |H14    C14    C13    C12    |HGA1     CRL1     CRL1     CRL2        |CHS 1
+   28    26    36    34     9     ; |C15    C14    C13    C17    |CRL2     CRL1     CRL1     CRL1        |CHS 1
+   28    26    36    37     9     ; |C15    C14    C13    C18    |CRL2     CRL1     CRL1     CTL3        |CHS 1
+   28    26    36    41     9     ; |C15    C14    C13    C12    |CRL2     CRL1     CRL1     CRL2        |CHS 1
+   26    28    31    32     9     ; |C14    C15    C16    H16A   |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   26    28    31    33     9     ; |C14    C15    C16    H16B   |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   26    28    31    34     9     ; |C14    C15    C16    C17    |CRL1     CRL2     CRL2     CRL1        |CHS 1
+   29    28    31    32     9     ; |H15A   C15    C16    H16A   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   29    28    31    33     9     ; |H15A   C15    C16    H16B   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   29    28    31    34     9     ; |H15A   C15    C16    C17    |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   30    28    31    32     9     ; |H15B   C15    C16    H16A   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   30    28    31    33     9     ; |H15B   C15    C16    H16B   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   30    28    31    34     9     ; |H15B   C15    C16    C17    |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   28    31    34    35     9     ; |C15    C16    C17    H17    |CRL2     CRL2     CRL1     HGA1        |CHS 1
+   28    31    34    36     9     ; |C15    C16    C17    C13    |CRL2     CRL2     CRL1     CRL1        |CHS 1
+   28    31    34    60     9     ; |C15    C16    C17    C20    |CRL2     CRL2     CRL1     CTL1        |CHS 1
+   32    31    34    35     9     ; |H16A   C16    C17    H17    |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   32    31    34    36     9     ; |H16A   C16    C17    C13    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   32    31    34    60     9     ; |H16A   C16    C17    C20    |HGA2     CRL2     CRL1     CTL1        |CHS 1
+   33    31    34    35     9     ; |H16B   C16    C17    H17    |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   33    31    34    36     9     ; |H16B   C16    C17    C13    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   33    31    34    60     9     ; |H16B   C16    C17    C20    |HGA2     CRL2     CRL1     CTL1        |CHS 1
+   31    34    36    26     9     ; |C16    C17    C13    C14    |CRL2     CRL1     CRL1     CRL1        |CHS 1
+   31    34    36    37     9     ; |C16    C17    C13    C18    |CRL2     CRL1     CRL1     CTL3        |CHS 1
+   31    34    36    41     9     ; |C16    C17    C13    C12    |CRL2     CRL1     CRL1     CRL2        |CHS 1
+   35    34    36    26     9     ; |H17    C17    C13    C14    |HGA1     CRL1     CRL1     CRL1        |CHS 1
+   35    34    36    37     9     ; |H17    C17    C13    C18    |HGA1     CRL1     CRL1     CTL3        |CHS 1
+   35    34    36    41     9     ; |H17    C17    C13    C12    |HGA1     CRL1     CRL1     CRL2        |CHS 1
+   60    34    36    26     9     ; |C20    C17    C13    C14    |CTL1     CRL1     CRL1     CRL1        |CHS 1
+   60    34    36    37     9     ; |C20    C17    C13    C18    |CTL1     CRL1     CRL1     CTL3        |CHS 1
+   60    34    36    41     9     ; |C20    C17    C13    C12    |CTL1     CRL1     CRL1     CRL2        |CHS 1
+   31    34    60    61     9     ; |C16    C17    C20    H20    |CRL2     CRL1     CTL1     HAL1        |CHS 1
+   31    34    60    62     9     ; |C16    C17    C20    C21    |CRL2     CRL1     CTL1     CTL3        |CHS 1
+   31    34    60    66     9     ; |C16    C17    C20    C22    |CRL2     CRL1     CTL1     CTL2        |CHS 1
+   35    34    60    61     9     ; |H17    C17    C20    H20    |HGA1     CRL1     CTL1     HAL1        |CHS 1
+   35    34    60    62     9     ; |H17    C17    C20    C21    |HGA1     CRL1     CTL1     CTL3        |CHS 1
+   35    34    60    66     9     ; |H17    C17    C20    C22    |HGA1     CRL1     CTL1     CTL2        |CHS 1
+   36    34    60    61     9     ; |C13    C17    C20    H20    |CRL1     CRL1     CTL1     HAL1        |CHS 1
+   36    34    60    62     9     ; |C13    C17    C20    C21    |CRL1     CRL1     CTL1     CTL3        |CHS 1
+   36    34    60    66     9     ; |C13    C17    C20    C22    |CRL1     CRL1     CTL1     CTL2        |CHS 1
+   26    36    37    38     9     ; |C14    C13    C18    H18A   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   26    36    37    39     9     ; |C14    C13    C18    H18B   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   26    36    37    40     9     ; |C14    C13    C18    H18C   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   34    36    37    38     9     ; |C17    C13    C18    H18A   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   34    36    37    39     9     ; |C17    C13    C18    H18B   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   34    36    37    40     9     ; |C17    C13    C18    H18C   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   41    36    37    38     9     ; |C12    C13    C18    H18A   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   41    36    37    39     9     ; |C12    C13    C18    H18B   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   41    36    37    40     9     ; |C12    C13    C18    H18C   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   26    36    41    42     9     ; |C14    C13    C12    H12A   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   26    36    41    43     9     ; |C14    C13    C12    H12B   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   26    36    41    44     9     ; |C14    C13    C12    C11    |CRL1     CRL1     CRL2     CRL2        |CHS 1
+   34    36    41    42     9     ; |C17    C13    C12    H12A   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   34    36    41    43     9     ; |C17    C13    C12    H12B   |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   34    36    41    44     9     ; |C17    C13    C12    C11    |CRL1     CRL1     CRL2     CRL2        |CHS 1
+   37    36    41    42     9     ; |C18    C13    C12    H12A   |CTL3     CRL1     CRL2     HGA2        |CHS 1
+   37    36    41    43     9     ; |C18    C13    C12    H12B   |CTL3     CRL1     CRL2     HGA2        |CHS 1
+   37    36    41    44     9     ; |C18    C13    C12    C11    |CTL3     CRL1     CRL2     CRL2        |CHS 1
+   36    41    44    45     9     ; |C13    C12    C11    H11A   |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   36    41    44    46     9     ; |C13    C12    C11    H11B   |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   36    41    44    47     9     ; |C13    C12    C11    C9     |CRL1     CRL2     CRL2     CRL1        |CHS 1
+   42    41    44    45     9     ; |H12A   C12    C11    H11A   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   42    41    44    46     9     ; |H12A   C12    C11    H11B   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   42    41    44    47     9     ; |H12A   C12    C11    C9     |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   43    41    44    45     9     ; |H12B   C12    C11    H11A   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   43    41    44    46     9     ; |H12B   C12    C11    H11B   |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   43    41    44    47     9     ; |H12B   C12    C11    C9     |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   41    44    47    24     9     ; |C12    C11    C9     C8     |CRL2     CRL2     CRL1     CRL1        |CHS 1
+   41    44    47    48     9     ; |C12    C11    C9     H9     |CRL2     CRL2     CRL1     HGA1        |CHS 1
+   41    44    47    49     9     ; |C12    C11    C9     C10    |CRL2     CRL2     CRL1     CRL1        |CHS 1
+   45    44    47    24     9     ; |H11A   C11    C9     C8     |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   45    44    47    48     9     ; |H11A   C11    C9     H9     |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   45    44    47    49     9     ; |H11A   C11    C9     C10    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   46    44    47    24     9     ; |H11B   C11    C9     C8     |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   46    44    47    48     9     ; |H11B   C11    C9     H9     |HGA2     CRL2     CRL1     HGA1        |CHS 1
+   46    44    47    49     9     ; |H11B   C11    C9     C10    |HGA2     CRL2     CRL1     CRL1        |CHS 1
+   24    47    49    18     9     ; |C8     C9     C10    C5     |CRL1     CRL1     CRL1     CEL1        |CHS 1
+   24    47    49    50     9     ; |C8     C9     C10    C19    |CRL1     CRL1     CRL1     CTL3        |CHS 1
+   24    47    49    54     9     ; |C8     C9     C10    C1     |CRL1     CRL1     CRL1     CRL2        |CHS 1
+   44    47    49    18     9     ; |C11    C9     C10    C5     |CRL2     CRL1     CRL1     CEL1        |CHS 1
+   44    47    49    50     9     ; |C11    C9     C10    C19    |CRL2     CRL1     CRL1     CTL3        |CHS 1
+   44    47    49    54     9     ; |C11    C9     C10    C1     |CRL2     CRL1     CRL1     CRL2        |CHS 1
+   48    47    49    18     9     ; |H9     C9     C10    C5     |HGA1     CRL1     CRL1     CEL1        |CHS 1
+   48    47    49    50     9     ; |H9     C9     C10    C19    |HGA1     CRL1     CRL1     CTL3        |CHS 1
+   48    47    49    54     9     ; |H9     C9     C10    C1     |HGA1     CRL1     CRL1     CRL2        |CHS 1
+   18    49    50    51     9     ; |C5     C10    C19    H19A   |CEL1     CRL1     CTL3     HAL3        |CHS 1
+   18    49    50    52     9     ; |C5     C10    C19    H19B   |CEL1     CRL1     CTL3     HAL3        |CHS 1
+   18    49    50    53     9     ; |C5     C10    C19    H19C   |CEL1     CRL1     CTL3     HAL3        |CHS 1
+   47    49    50    51     9     ; |C9     C10    C19    H19A   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   47    49    50    52     9     ; |C9     C10    C19    H19B   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   47    49    50    53     9     ; |C9     C10    C19    H19C   |CRL1     CRL1     CTL3     HAL3        |CHS 1
+   54    49    50    51     9     ; |C1     C10    C19    H19A   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   54    49    50    52     9     ; |C1     C10    C19    H19B   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   54    49    50    53     9     ; |C1     C10    C19    H19C   |CRL2     CRL1     CTL3     HAL3        |CHS 1
+   18    49    54    55     9     ; |C5     C10    C1     H1A    |CEL1     CRL1     CRL2     HGA2        |CHS 1
+   18    49    54    56     9     ; |C5     C10    C1     H1B    |CEL1     CRL1     CRL2     HGA2        |CHS 1
+   18    49    54    57     9     ; |C5     C10    C1     C2     |CEL1     CRL1     CRL2     CRL2        |CHS 1
+   47    49    54    55     9     ; |C9     C10    C1     H1A    |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   47    49    54    56     9     ; |C9     C10    C1     H1B    |CRL1     CRL1     CRL2     HGA2        |CHS 1
+   47    49    54    57     9     ; |C9     C10    C1     C2     |CRL1     CRL1     CRL2     CRL2        |CHS 1
+   50    49    54    55     9     ; |C19    C10    C1     H1A    |CTL3     CRL1     CRL2     HGA2        |CHS 1
+   50    49    54    56     9     ; |C19    C10    C1     H1B    |CTL3     CRL1     CRL2     HGA2        |CHS 1
+   50    49    54    57     9     ; |C19    C10    C1     C2     |CTL3     CRL1     CRL2     CRL2        |CHS 1
+   49    54    57    13     9     ; |C10    C1     C2     C3     |CRL1     CRL2     CRL2     CRL1        |CHS 1
+   49    54    57    58     9     ; |C10    C1     C2     H2A    |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   49    54    57    59     9     ; |C10    C1     C2     H2B    |CRL1     CRL2     CRL2     HGA2        |CHS 1
+   55    54    57    13     9     ; |H1A    C1     C2     C3     |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   55    54    57    58     9     ; |H1A    C1     C2     H2A    |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   55    54    57    59     9     ; |H1A    C1     C2     H2B    |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   56    54    57    13     9     ; |H1B    C1     C2     C3     |HGA2     CRL2     CRL2     CRL1        |CHS 1
+   56    54    57    58     9     ; |H1B    C1     C2     H2A    |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   56    54    57    59     9     ; |H1B    C1     C2     H2B    |HGA2     CRL2     CRL2     HGA2        |CHS 1
+   34    60    62    63     9     ; |C17    C20    C21    H21A   |CRL1     CTL1     CTL3     HAL3        |CHS 1
+   34    60    62    64     9     ; |C17    C20    C21    H21B   |CRL1     CTL1     CTL3     HAL3        |CHS 1
+   34    60    62    65     9     ; |C17    C20    C21    H21C   |CRL1     CTL1     CTL3     HAL3        |CHS 1
+   61    60    62    63     9     ; |H20    C20    C21    H21A   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   61    60    62    64     9     ; |H20    C20    C21    H21B   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   61    60    62    65     9     ; |H20    C20    C21    H21C   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   66    60    62    63     9     ; |C22    C20    C21    H21A   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   66    60    62    64     9     ; |C22    C20    C21    H21B   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   66    60    62    65     9     ; |C22    C20    C21    H21C   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   34    60    66    67     9     ; |C17    C20    C22    H22A   |CRL1     CTL1     CTL2     HAL2        |CHS 1
+   34    60    66    68     9     ; |C17    C20    C22    H22B   |CRL1     CTL1     CTL2     HAL2        |CHS 1
+   34    60    66    69     9     ; |C17    C20    C22    C23    |CRL1     CTL1     CTL2     CTL2        |CHS 1
+   61    60    66    67     9     ; |H20    C20    C22    H22A   |HAL1     CTL1     CTL2     HAL2        |CHS 1
+   61    60    66    68     9     ; |H20    C20    C22    H22B   |HAL1     CTL1     CTL2     HAL2        |CHS 1
+   61    60    66    69     9     ; |H20    C20    C22    C23    |HAL1     CTL1     CTL2     CTL2        |CHS 1
+   62    60    66    67     9     ; |C21    C20    C22    H22A   |CTL3     CTL1     CTL2     HAL2        |CHS 1
+   62    60    66    68     9     ; |C21    C20    C22    H22B   |CTL3     CTL1     CTL2     HAL2        |CHS 1
+   62    60    66    69     9     ; |C21    C20    C22    C23    |CTL3     CTL1     CTL2     CTL2        |CHS 1
+   60    66    69    70     9     ; |C20    C22    C23    H23A   |CTL1     CTL2     CTL2     HAL2        |CHS 1
+   60    66    69    71     9     ; |C20    C22    C23    H23B   |CTL1     CTL2     CTL2     HAL2        |CHS 1
+   60    66    69    72     9     ; |C20    C22    C23    C24    |CTL1     CTL2     CTL2     CTL2        |CHS 1
+   67    66    69    70     9     ; |H22A   C22    C23    H23A   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   67    66    69    71     9     ; |H22A   C22    C23    H23B   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   67    66    69    72     9     ; |H22A   C22    C23    C24    |HAL2     CTL2     CTL2     CTL2        |CHS 1
+   68    66    69    70     9     ; |H22B   C22    C23    H23A   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   68    66    69    71     9     ; |H22B   C22    C23    H23B   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   68    66    69    72     9     ; |H22B   C22    C23    C24    |HAL2     CTL2     CTL2     CTL2        |CHS 1
+   66    69    72    73     9     ; |C22    C23    C24    H24A   |CTL2     CTL2     CTL2     HAL2        |CHS 1
+   66    69    72    74     9     ; |C22    C23    C24    H24B   |CTL2     CTL2     CTL2     HAL2        |CHS 1
+   66    69    72    75     9     ; |C22    C23    C24    C25    |CTL2     CTL2     CTL2     CTL1        |CHS 1
+   70    69    72    73     9     ; |H23A   C23    C24    H24A   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   70    69    72    74     9     ; |H23A   C23    C24    H24B   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   70    69    72    75     9     ; |H23A   C23    C24    C25    |HAL2     CTL2     CTL2     CTL1        |CHS 1
+   71    69    72    73     9     ; |H23B   C23    C24    H24A   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   71    69    72    74     9     ; |H23B   C23    C24    H24B   |HAL2     CTL2     CTL2     HAL2        |CHS 1
+   71    69    72    75     9     ; |H23B   C23    C24    C25    |HAL2     CTL2     CTL2     CTL1        |CHS 1
+   69    72    75    76     9     ; |C23    C24    C25    H25    |CTL2     CTL2     CTL1     HAL1        |CHS 1
+   69    72    75    77     9     ; |C23    C24    C25    C26    |CTL2     CTL2     CTL1     CTL3        |CHS 1
+   69    72    75    81     9     ; |C23    C24    C25    C27    |CTL2     CTL2     CTL1     CTL3        |CHS 1
+   73    72    75    76     9     ; |H24A   C24    C25    H25    |HAL2     CTL2     CTL1     HAL1        |CHS 1
+   73    72    75    77     9     ; |H24A   C24    C25    C26    |HAL2     CTL2     CTL1     CTL3        |CHS 1
+   73    72    75    81     9     ; |H24A   C24    C25    C27    |HAL2     CTL2     CTL1     CTL3        |CHS 1
+   74    72    75    76     9     ; |H24B   C24    C25    H25    |HAL2     CTL2     CTL1     HAL1        |CHS 1
+   74    72    75    77     9     ; |H24B   C24    C25    C26    |HAL2     CTL2     CTL1     CTL3        |CHS 1
+   74    72    75    81     9     ; |H24B   C24    C25    C27    |HAL2     CTL2     CTL1     CTL3        |CHS 1
+   72    75    77    78     9     ; |C24    C25    C26    H26A   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   72    75    77    79     9     ; |C24    C25    C26    H26B   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   72    75    77    80     9     ; |C24    C25    C26    H26C   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   76    75    77    78     9     ; |H25    C25    C26    H26A   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   76    75    77    79     9     ; |H25    C25    C26    H26B   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   76    75    77    80     9     ; |H25    C25    C26    H26C   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   81    75    77    78     9     ; |C27    C25    C26    H26A   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+   81    75    77    79     9     ; |C27    C25    C26    H26B   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+   81    75    77    80     9     ; |C27    C25    C26    H26C   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+   72    75    81    82     9     ; |C24    C25    C27    H27A   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   72    75    81    83     9     ; |C24    C25    C27    H27B   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   72    75    81    84     9     ; |C24    C25    C27    H27C   |CTL2     CTL1     CTL3     HAL3        |CHS 1
+   76    75    81    82     9     ; |H25    C25    C27    H27A   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   76    75    81    83     9     ; |H25    C25    C27    H27B   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   76    75    81    84     9     ; |H25    C25    C27    H27C   |HAL1     CTL1     CTL3     HAL3        |CHS 1
+   77    75    81    82     9     ; |C26    C25    C27    H27A   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+   77    75    81    83     9     ; |C26    C25    C27    H27B   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+   77    75    81    84     9     ; |C26    C25    C27    H27C   |CTL3     CTL1     CTL3     HAL3        |CHS 1
+[ dihedrals ]
+;The improper dihedrals
+;impl  ai    aj    ak    al funct   phi0     cp     mult
+    2     1     4     3     2     ; |C4'    O3     C5'    O2'    |CL       OSL      CTL2     OBL         |CHS 1
+   10    11     7    12     2     ; |C7'    O3'    C6'    O4'    |CL       OCL      CTL2     OCL         |CHS 1
+

@@ -1,0 +1,14 @@
+;NTL=NG311
+;CTL2=CTL5=CG321 or CG324-better
+[ bondtypes ]
+CCL CTL2 1   0.15220000    167360.00 ; from CT2       CC
+
+
+[ angletypes ]
+OCL CCL CTL2      5   118.000000   334.720000   0.23880000     41840.00 ;OC       CC      CT2
+CCL CTL2 CTL2      5   108.000000   435.136000   0.00000000         0.00; CT2      CT2       CC
+CCL CTL2 HAL2  5   109.500000   276.144000   0.21630000     25104.00; HA2      CT2       CC    
+
+[ dihedraltypes ]
+OCL CCL CTL2 HAL2 9   180.000000     0.209200     6; HA2      CT2       CC       OC     
+OCL CCL CTL2 CTL2 9   180.000000     0.209200     6 ;  CT2      CT2       CC       OC     
