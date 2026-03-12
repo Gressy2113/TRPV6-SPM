@@ -5,6 +5,6 @@ Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine
 
 | Setup# | Number of spermine molecules | Spermine starting position | Ca2+ starting position | Spermine finishing position | Simulation time (ns) |
 |--------|------------------------------|----------------------------|------------------------|-----------------------------|----------------------|
-| SETUP1 | 1                            | bulk water                 | no                     | 4×Pose 3 1×Pose 3           | 3×500 2×1000         |
+| SETUP1 | 1                            | bulk water                 | no                     | 4×Pose 3<br>1×Pose 3        | 3×500<br>2×1000      |
 |        |                              |                            |                        |                             |                      |
 |        |                              |                            |                        |                             |                      |
