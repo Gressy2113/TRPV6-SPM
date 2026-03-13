@@ -5,21 +5,21 @@ This repository contains molecular dynamics (MD) simulation data presented in th
 > Neuberger, A., Veretenenko, I. I., Shalygin, A., Trofimov, Y. A., Gudermann, T., Chubanov, V., Efremov, R. G., & Sobolevsky, A. I. (2026). Open-channel block of human TRPV6 by polyamine spermine. Nature Communications
 
 # Overview
-This project explores spermine binding poses within hTRPV6<sub>Open</sub> (PDB ID: 9CUJ) ion-conducting pore: 
-* Pose 1 at the intracellular entrance near residues D580 
-* Pose 2 in the central cavity 
-* Pose 3 in the selectivity filter near D542/T539
+* This project explores spermine binding poses within hTRPV6<sub>Open</sub> (PDB ID: 9CUJ) ion-conducting pore: 
+    * Pose 1 at the intracellular entrance near residues D580 
+    * Pose 2 in the central cavity 
+    * Pose 3 in the selectivity filter near D542/T539
 
-MD simulations were carried out using the CHARMM36 force field [[1]], the TIP3P water model [[2]]. The CHARMM General Force Field (CGenFF) was used to generate the spermine topology (+4e charge) [[3]]. The multi-site CAM model was used for Ca<sup>2+</sup> [[4]].
+* MD simulations were carried out using the CHARMM36 force field [[1]], the TIP3P water model [[2]]. The CHARMM General Force Field (CGenFF) was used to generate the spermine topology (+4e charge) [[3]]. The multi-site CAM model was used for Ca<sup>2+</sup> [[4]].
 
-CHARMM General Force Field (CGenFF)95,96 was used to generate the spermine topology with a charge of +4.
+* CHARMM General Force Field (CGenFF)95,96 was used to generate the spermine topology with a charge of +4.
 
 
-Cylindrical constraints (10 Å radius, 10<sup>3</sup> kJ/mol/Å<sup>2</sup>) prevented spermine from moving away from the pore axis.
+* Cylindrical constraints (10 Å radius, 10<sup>3</sup> kJ/mol/Å<sup>2</sup>) prevented spermine from moving away from the pore axis.
 
-Equilibration steps includes 5×10<sup>4</sup> steps of steepest descent minimization, heating from 5 to 310 K during a 200-ps MD and progressive release of restraints (10 ns of MD run with fixed positions of the protein atoms, 10 ns of MD with fixed positions of the protein backbone, 50 ns of MD with fixed positions of the protein Cα atoms to permit membrane relaxation). Spermine heavy atoms were restrained during all equilibration steps.
+* Equilibration steps includes 5×10<sup>4</sup> steps of steepest descent minimization, heating from 5 to 310 K during a 200-ps MD and progressive release of restraints (10 ns of MD run with fixed positions of the protein atoms, 10 ns of MD with fixed positions of the protein backbone, 50 ns of MD with fixed positions of the protein Cα atoms to permit membrane relaxation). Spermine heavy atoms were restrained during all equilibration steps.
 
-Production runs: 500–1500 ns per replica; no transmembrane potential was applied.
+* Production runs: 500–1500 ns per replica; no transmembrane potential was applied.
 
 # MD Simulation Setups
 | Setup# | Number of spermine molecules | Spermine starting position | Ca2+ starting position | Spermine finishing position | Simulation time (ns) |
