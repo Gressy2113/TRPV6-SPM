@@ -67,14 +67,21 @@ gmx mdrun -v -deffnm md -gpu_id $GPU_ID -nt $NT -pin on -pinoffset $PIN_ON -pins
 ```
 
 # References
-1. Huang, J. & Mackerell, A. D. CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data. Journal of Computational Chemistry 34, 2135–2145 (2013). https://doi.org/10.1002/jcc.23354 
-2. Jorgensen, W. L., Chandrasekhar, J., Madura, J. D., Impey, R. W., & Klein, M. L. (1983). Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics, 79(2), 926–935. https://doi.org/10.1063/1.445869
-3. Vanommeslaeghe, K. et al. CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields. Journal of computational chemistry 31, 671–690 (2009). https://doi.org/10.1002/jcc.21367 
-4. Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). https://doi.org/10.1038/s41467-020-14573-w
-5. https://model.nmr.ru/cell 
-6. Trofimov, Y.A., Krylov, N.A., Minakov, A.S. et al. Dynamic molecular portraits of ion-conducting pores characterize functional states of TRPV channels. Commun Chem 7, 119 (2024). https://doi.org/10.1038/s42004-024-01198-z 
-7. Abraham, M., Alekseenko, A., Basov, V., Bergh, C., Briand, E., Brown, A., Doijade, M., Fiorin, G., Fleischmann, S., Gorelov, S., Gouaillardet, G., Gray, A., Irrgang, M. E., Jalalypour, F., Jordan, J., Kutzner, C., Lemkul, J. A., Lundborg, M., Merz, P., … Lindahl, E. (2024). GROMACS 2024.4 Source code (2024.4). Zenodo. https://doi.org/10.5281/zenodo.14016590
-8. Schrödinger, L. & DeLano, W. PyMOL (2020), Available at: http://www.pymol.org/pymol
+[1]: Huang, J. & Mackerell, A. D. CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data. Journal of Computational Chemistry 34, 2135–2145 (2013). https://doi.org/10.1002/jcc.23354 
+
+[2]: Jorgensen, W. L., Chandrasekhar, J., Madura, J. D., Impey, R. W., & Klein, M. L. (1983). Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics, 79(2), 926–935. https://doi.org/10.1063/1.445869
+
+[3]: Vanommeslaeghe, K. et al. CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields. Journal of computational chemistry 31, 671–690 (2009). https://doi.org/10.1002/jcc.21367 
+
+[4]: Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). https://doi.org/10.1038/s41467-020-14573-w
+
+[5]: https://model.nmr.ru/cell 
+
+[6]: Trofimov, Y.A., Krylov, N.A., Minakov, A.S. et al. Dynamic molecular portraits of ion-conducting pores characterize functional states of TRPV channels. Commun Chem 7, 119 (2024). https://doi.org/10.1038/s42004-024-01198-z 
+
+[7]: Abraham, M., Alekseenko, A., Basov, V., Bergh, C., Briand, E., Brown, A., Doijade, M., Fiorin, G., Fleischmann, S., Gorelov, S., Gouaillardet, G., Gray, A., Irrgang, M. E., Jalalypour, F., Jordan, J., Kutzner, C., Lemkul, J. A., Lundborg, M., Merz, P., … Lindahl, E. (2024). GROMACS 2024.4 Source code (2024.4). Zenodo. https://doi.org/10.5281/zenodo.14016590
+
+[8]: Schrödinger, L. & DeLano, W. PyMOL (2020), Available at: http://www.pymol.org/pymol
 
 
 
