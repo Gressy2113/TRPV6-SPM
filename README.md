@@ -10,7 +10,7 @@ This project explores spermine binding poses within hTRPV6<sub>Open</sub> (PDB I
 * Pose 2 in the central cavity 
 * Pose 3 in the selectivity filter near D542/T539
 
-MD simulations were carried out using the CHARMM36 force field [1], the TIP3P water model [2]. The CHARMM General Force Field (CGenFF) was used to generate the spermine topology (+4e charge) [3]. The multi-site CAM model was used for Ca<sup>2+</sup> [4].
+MD simulations were carried out using the CHARMM36 force field [[1]], the TIP3P water model [[2]]. The CHARMM General Force Field (CGenFF) was used to generate the spermine topology (+4e charge) [[3]]. The multi-site CAM model was used for Ca<sup>2+</sup> [[4]].
 
 CHARMM General Force Field (CGenFF)95,96 was used to generate the spermine topology with a charge of +4.
 
@@ -33,7 +33,7 @@ Production runs: 500–1500 ns per replica; no transmembrane potential was appli
 * Pose 3 (SF) dominates in Ca<sup>2+</sup>-free setups, matching cryo-EM density.
 * Ca<sup>2+</sup> in SF blocks progression to Pose 3 unless spermine starts in Pose 2.
 * Mutants: T539V similar to WT; D580R prevents pore entry.
-* Analysis: hydrogen bonds (D-A < 3.5 Å, D-H-A 150–210°), MD-averaged density maps, hydrophobicity/electrostatics maps via Molecular Surface Topography (MST) tool [5,6].
+* Analysis: hydrogen bonds (D-A < 3.5 Å, D-H-A 150–210°), MD-averaged density maps, hydrophobicity/electrostatics maps via Molecular Surface Topography (MST) tool [[5]-[6]].
 
 
 # Repository Structure
@@ -56,7 +56,7 @@ TRPV6-SPM/
 ```
 
 # Requirements
-* Software: GROMACS 2024.4 [7], PyMOL [8]
+* Software: GROMACS 2024.4 [[7]], PyMOL [[8]]
 * Hardware: GPU cluster
 
 # Simulation command example (production MD-run):
@@ -67,21 +67,26 @@ gmx mdrun -v -deffnm md -gpu_id $GPU_ID -nt $NT -pin on -pinoffset $PIN_ON -pins
 ```
 
 # References
-[1]: Huang, J. & Mackerell, A. D. CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data. Journal of Computational Chemistry 34, 2135–2145 (2013). https://doi.org/10.1002/jcc.23354 
+[1]: https://doi.org/10.1002/jcc.23354
+1. Huang, J. & Mackerell, A. D. CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data. Journal of Computational Chemistry 34, 2135–2145 (2013). https://doi.org/10.1002/jcc.23354
 
-[2]: Jorgensen, W. L., Chandrasekhar, J., Madura, J. D., Impey, R. W., & Klein, M. L. (1983). Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics, 79(2), 926–935. https://doi.org/10.1063/1.445869
+[2]: https://doi.org/10.1063/1.445869
+2. Jorgensen, W. L., Chandrasekhar, J., Madura, J. D., Impey, R. W., & Klein, M. L. Comparison of simple potential functions for simulating liquid water. The Journal of Chemical Physics, 79(2), 926–935 (1983). https://doi.org/10.1063/1.445869
 
-[3]: Vanommeslaeghe, K. et al. CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields. Journal of computational chemistry 31, 671–690 (2009). https://doi.org/10.1002/jcc.21367 
+[3]: https://doi.org/10.1002/jcc.21367  
+3. Vanommeslaeghe, K. et al. CHARMM general force field: A force field for drug-like molecules compatible with the CHARMM all-atom additive biological force fields. Journal of computational chemistry 31, 671–690 (2009). https://doi.org/10.1002/jcc.21367  
 
-[4]: Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). https://doi.org/10.1038/s41467-020-14573-w
+[4]: https://doi.org/10.1038/s41467-020-14573-w
+4. Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). https://doi.org/10.1038/s41467-020-14573-w
 
 [5]: https://model.nmr.ru/cell 
+5. https://model.nmr.ru/cell 
 
-[6]: Trofimov, Y.A., Krylov, N.A., Minakov, A.S. et al. Dynamic molecular portraits of ion-conducting pores characterize functional states of TRPV channels. Commun Chem 7, 119 (2024). https://doi.org/10.1038/s42004-024-01198-z 
+[6]: https://doi.org/10.1038/s42004-024-01198-z  
+6. Trofimov, Y.A., Krylov, N.A., Minakov, A.S. et al. Dynamic molecular portraits of ion-conducting pores characterize functional states of TRPV channels. Commun Chem 7, 119 (2024). https://doi.org/10.1038/s42004-024-01198-z 
 
-[7]: Abraham, M., Alekseenko, A., Basov, V., Bergh, C., Briand, E., Brown, A., Doijade, M., Fiorin, G., Fleischmann, S., Gorelov, S., Gouaillardet, G., Gray, A., Irrgang, M. E., Jalalypour, F., Jordan, J., Kutzner, C., Lemkul, J. A., Lundborg, M., Merz, P., … Lindahl, E. (2024). GROMACS 2024.4 Source code (2024.4). Zenodo. https://doi.org/10.5281/zenodo.14016590
+[7]: https://doi.org/10.5281/zenodo.14016590
+7. Abraham, M., Alekseenko, A., Basov, V., Bergh, C., Briand, E., Brown, A., Doijade, M., Fiorin, G., Fleischmann, S., Gorelov, S., Gouaillardet, G., Gray, A., Irrgang, M. E., Jalalypour, F., Jordan, J., Kutzner, C., Lemkul, J. A., Lundborg, M., Merz, P., … Lindahl, E. (2024). GROMACS 2024.4 Source code (2024.4). Zenodo. https://doi.org/10.5281/zenodo.14016590
 
-[8]: Schrödinger, L. & DeLano, W. PyMOL (2020), Available at: http://www.pymol.org/pymol
-
-
-
+[8]: http://www.pymol.org/pymol
+8. Schrödinger, L. & DeLano, W. PyMOL (2020), Available at: http://www.pymol.org/pymol
