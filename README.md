@@ -5,28 +5,29 @@ This repository contains molecular dynamics (MD) simulation data presented in th
 > Neuberger, A., Veretenenko, I. I., Shalygin, A., Trofimov, Y. A., Gudermann, T., Chubanov, V., Efremov, R. G., & Sobolevsky, A. I. (2026). Open-channel block of human TRPV6 by polyamine spermine. Nature Communications
 
 # Overview
-* This project explores spermine binding poses within hTRPV6<sub>Open</sub> (PDB ID: 9CUJ) ion-conducting pore: 
+* This project explores spermine stepwise binding in the pore of hTRPV6<sub>Open</sub> (PDB ID: 9CUJ) via three metastable poses: 
     * Pose 1 at the intracellular entrance near residues D580 
     * Pose 2 in the central cavity 
     * Pose 3 in the selectivity filter near D542/T539
 
 * MD simulations were carried out using the CHARMM36 force field [[1]], the TIP3P water model [[2]]. The CHARMM General Force Field (CGenFF) was used to generate the spermine topology (+4e charge) [[3]]. The multi-site CAM model was used for Ca<sup>2+</sup> [[4]].
 
-* CHARMM General Force Field (CGenFF)95,96 was used to generate the spermine topology with a charge of +4.
-
-
-* Cylindrical constraints (10 Å radius, 10<sup>3</sup> kJ/mol/Å<sup>2</sup>) prevented spermine from moving away from the pore axis.
+* Cylindrical constraints (10 Å radius, 10<sup>3</sup> kJ/mol/Å<sup>2</sup>) were applied to prevent spermine moving far from the pore axis.
 
 * Equilibration steps includes 5×10<sup>4</sup> steps of steepest descent minimization, heating from 5 to 310 K during a 200-ps MD and progressive release of restraints (10 ns of MD run with fixed positions of the protein atoms, 10 ns of MD with fixed positions of the protein backbone, 50 ns of MD with fixed positions of the protein Cα atoms to permit membrane relaxation). Spermine heavy atoms were restrained during all equilibration steps.
 
 * Production runs: 500–1500 ns per replica; no transmembrane potential was applied.
 
 # MD Simulation Setups
-| Setup# | Number of spermine molecules | Spermine starting position | Ca2+ starting position | Spermine finishing position | Simulation time (ns) |
-|--------|------------------------------|----------------------------|------------------------|-----------------------------|----------------------|
-| SETUP1 | 1                            | bulk water                 | no                     | 4×Pose 3<br>1×Pose 1        | 3×500<br>2×1000      |
-| SETUP2 | 1                            | bulk water                 | SF                     | 3×Pose 1                    | 3×1000               |
-| SETUP3 | 1                            | Pose 2                     | SF                     | 3×Pose 3                    | 3×500                |
+| Setup#         | Number of spermine molecules | Spermine starting position         | Ca2+ starting position | Spermine final position                                | Simulation time (ns)      |
+|----------------|------------------------------|------------------------------------|------------------------|------------------------------------------------------------|---------------------------|
+| SETUP1         | 1                            | intacellular                       | no                     | 4×Pose 3<br>1×Pose 3                                       | 3×500<br>2×1000           |
+| SETUP2         | 1                            | intacellular                       | SF                     | 3×Pose 1                                                   | 3×1000                    |
+| SETUP3         | 1                            | Pose 2                             | SF                     | 3×Pose 3                                                   | 3×500                     |
+| SETUP4         | 2                            | 2×intracellular                    | no                     | 3×(Pose1 and Pose 3)                                       | 2×1000<br>1×1500          |
+| SETUP5         | 2                            | 1×intracellular<br>1×extracellular | no                     | 2×(Pose3 and extracellular)<br>3×(Pose2 and extracellular) | 5×1000                    |
+| SETUP1 (T539V) | 1                            | intacellular                       | no                     | 3×Pose3<br>1×Pose1                                         | 1×500<br>1×1000<br>2×1500 |
+| SETUP1 (D580R) | 1                            | intacellular                       | no                     | 3×bulk water                                               | 3×1000                    |
 
 # Key observations:
 
@@ -42,13 +43,13 @@ TRPV6-SPM/
 ├── SETUP1/  
     ├── REPLICA1/     
         ├── SETUP1/    
-            ├──system.top #system topology
-            ├──grps.ndx #system index file
-            ├──pr3.gro #fully equilibrated system, initial configuration for production MD-run
-            ├──md.mdp # 
-            ├──md.tpr #.tpr file for MD-run
+            ├──system.top # system topology
+            ├──grps.ndx # system index file
+            ├──pr3.gro # fully equilibrated system, initial configuration for production MD-run
+            ├──md.mdp # molecular dynamics parameters
+            ├──md.tpr # .tpr file for MD-run
             ├──md.gro # final coordinates of the system after MD-run
-            ├──state_pdb/ #coordinates of Protein, Spermine and ions during MD-run with Δt=100000 ps
+            ├──state_pdb/ # coordinates of Protein, Spermine and ions during MD-run with Δt=100000 ps
                 ├──state_t_0.pdb
                 ├──state_t_100000.pdb
                 ├──...
@@ -67,6 +68,7 @@ gmx mdrun -v -deffnm md -gpu_id $GPU_ID -nt $NT -pin on -pinoffset $PIN_ON -pins
 ```
 
 # References
+
 [1]: https://doi.org/10.1002/jcc.23354
 1. Huang, J. & Mackerell, A. D. CHARMM36 all-atom additive protein force field: Validation based on comparison to NMR data. Journal of Computational Chemistry 34, 2135–2145 (2013). https://doi.org/10.1002/jcc.23354
 
