@@ -43,13 +43,13 @@ TRPV6-SPM/
 ├── SETUP1/  
     ├── REPLICA1/     
         ├── SETUP1/    
-            ├──system.top # system topology
-            ├──grps.ndx # system index file
-            ├──pr3.gro # fully equilibrated system, initial configuration for production MD-run
-            ├──md.mdp # molecular dynamics parameters
-            ├──md.tpr # .tpr file for MD-run
-            ├──md.gro # final coordinates of the system after MD-run
-            ├──state_pdb/ # coordinates of Protein, Spermine and ions during MD-run with Δt=100000 ps
+            ├──system.top               # system topology
+            ├──grps.ndx                 # system index file
+            ├──pr3.gro                  # fully equilibrated system, initial configuration for production MD-run
+            ├──md.mdp                   # molecular dynamics parameters
+            ├──md.tpr                   # .tpr file for MD-run
+            ├──md.gro                   # final coordinates of the system after MD-run
+            ├──state_pdb/               # coordinates of Protein, Spermine and ions during MD-run with Δt=100000 ps
                 ├──state_t_0.pdb
                 ├──state_t_100000.pdb
                 ├──...
