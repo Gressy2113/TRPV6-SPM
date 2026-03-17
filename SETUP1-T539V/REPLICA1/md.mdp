@@ -1,0 +1,78 @@
+
+define              = 
+
+cutoff-scheme = Verlet
+constraints         =  h-bonds; all-bonds h-bonds, etc.
+constraint_algorithm      =  Lincs
+integrator          =  md
+tinit               =  0.0
+dt                  =  0.002    ; ps !
+nsteps              =  250000000
+;nstcomm             =  10
+nstxtcout           =  25000 ; ADJ 5000
+nstxout             =  500000 ; ADJ 500000
+nstvout             =  500000; ADJ 500000
+nstfout             =  0; ADJ 0
+nstlog              =  10000; ADJ
+;
+;energygrps          =  
+;TODO: commgrps but we need water - lipids separate
+nstenergy           =  10000
+;nstlist             =  10
+ns_type             =  grid
+rlist               =  1.2;1.2
+coulombtype         =  PME;PME
+rcoulomb            =  1.2;1.2
+fourierspacing      =  0.12;0.12; or 0.1*1.2 0.12-0.16 auto tune or nxyz
+optimize_fft        =  yes
+pbc                 =  xyz
+vdwtype             =  Cut-off
+rvdw                =  1.2; 1.2;gmx 4/5
+vdw-modifier        = 
+rvdw-switch         = 
+
+; Temperature coupling is on
+tcoupl              =  V-rescale
+tc_grps             =  SOLUTE SOL_ION 
+tau_t               =  0.5 0.5 
+ref_t               =  310.0 310.0 
+
+; Pressure coupling is on
+pcoupl              =  C-rescale
+pcoupltype          =  semiisotropic
+tau_p               =  5.0
+compressibility     =  4.5e-5 4.5e-5 
+ref_p               =  1.01325 1.01325 
+
+;No gen vel
+gen_vel             =  no
+
+; COM removal
+comm-mode       = Linear
+refcoord_scaling    = com
+
+; Pull code
+pull                    = yes
+pull_ncoords            = 2         ; only one reaction coordinate 
+pull_ngroups            = 2         ; two groups defining one reaction coordinate 
+pull_group1_name        = SPMP4
+pull_group2_name        = CHAN 
+
+pull_coord1_type        = flat-bottom  ; harmonic potential
+pull_coord1_geometry    = distance  ; simple distance increase 
+pull_coord1_dim         = Y Y N     ; pull along z
+pull_coord1_groups      = 1 2       ; groups 1 and 2 define the reaction coordinate
+pull_coord1_start       = no       ; define initial COM distance > 0
+pull-coord1-init		= 1.0
+pull_coord1_rate        = 0   ; nm per ps
+pull_coord1_k           = 100000      ; kJ mol^-1 nm^-2
+
+
+pull_coord2_type        = flat-bottom  ; harmonic potential
+pull_coord2_geometry    = distance  ; simple distance increase 
+pull_coord2_dim         = N N Y     ; pull along z
+pull_coord2_groups      = 1 2       ; groups 1 and 2 define the reaction coordinate
+pull_coord2_start       = no       ; define initial COM distance > 0
+pull-coord2-init		= 5.4
+pull_coord2_rate        = 0   ; nm per ps
+pull_coord2_k           = 100000      ; kJ mol^-1 nm^-2
