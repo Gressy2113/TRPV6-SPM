@@ -25,7 +25,7 @@ This repository contains molecular dynamics (MD) simulation data presented in th
 | SETUP2         | 1                            | intacellular                       | SF                     | 3×Pose 1                                                   | 3×1000                    |
 | SETUP3         | 1                            | Pose 2                             | SF                     | 3×Pose 3                                                   | 3×500                     |
 | SETUP4         | 2                            | 2×intracellular                    | no                     | 3×(Pose1 and Pose 3)                                       | 2×1000<br>1×1500          |
-| SETUP5         | 2                            | 1×intracellular<br>1×extracellular | no                     | 2×(Pose3 and extracellular)<br>3×(Pose2 and extracellular) | 5×1000                    |
+| SETUP5         | 2                            | 1×intracellular<br>1×extracellular | no                     | 2×(Pose3 and extracellular)<br>2×(Pose2 and extracellular)<br>1×(Pose1 and extracellular) | 5×1000                    |
 | SETUP1 (T539V) | 1                            | intacellular                       | no                     | 3×Pose3<br>1×Pose1                                         | 1×500<br>1×1000<br>2×1500 |
 | SETUP1 (D580R) | 1                            | intacellular                       | no                     | 3×bulk water                                               | 3×1000                    |
 
